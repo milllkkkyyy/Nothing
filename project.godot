@@ -51,8 +51,13 @@ _global_script_class_icons={
 [application]
 
 config/name="NOTHING (SCHOOL PROJECT)"
-run/main_scene="res://Test/Test.tscn"
+run/main_scene="res://Menu/Main.tscn"
 config/icon="res://icon.png"
+
+[autoload]
+
+SceneLoader="*res://SceneLoader.gd"
+Globals="*res://Globals.gd"
 
 [display]
 

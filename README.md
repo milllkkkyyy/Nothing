@@ -6,7 +6,7 @@ I use photoshop to scale and make objects transparent. The goal of this game is 
 december. The project itself isn't very complicated as I have the Godot Addon Dialogic which handles everything
 I need it to do. 
 
-#Why am I doing this?
+Why am I doing this?
 
 Its not only for school. I just want to make something I can smile at and be proud of. 
 I have made a game in the past that I was happy with but not really proud of. However, truthfully, I also want other people to

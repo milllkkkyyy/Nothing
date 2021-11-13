@@ -25,6 +25,7 @@ NOTHING 0.0.02 TESTING MENU DESIGN
 https://youtu.be/y96HS7VshHA
 
 NOTHING 0.0.03 FINISHED MENU DESIGN, STARTED CHAPTER ONE WORK
+https://youtu.be/QgAGm-fepTA
 
 # What do you need to run this project
 Godot game engine:

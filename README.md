@@ -16,6 +16,11 @@ but because they're scared and for whatever reason they come up with,they don't 
 Im using MS paint a couple hours of my free time every now and then to make something I can be proud of. I'm
 hoping others can follow my footsteps, make somthing better than I could even imagine and be proud of it. 
 
+I am also doing this to require myslef to make readible code that can be edited upon or understood. I and probably many
+other programmers have faced an issue were they arent able to read code sent by a friend and cannot help. While godots language helps
+a lot with readibility, I want a project that I could share my code to someone who knows very little and they can understand it
+as much as their prior knowledge about computer sceience allows them to. 
+
 These are video updates I am doing for myself:
 
 NOTHING 0.0.01 TESTING DIALOGIC, BASIC SETUP

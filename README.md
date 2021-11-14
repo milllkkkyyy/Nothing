@@ -27,6 +27,9 @@ https://youtu.be/y96HS7VshHA
 NOTHING 0.0.03 FINISHED MENU DESIGN, STARTED CHAPTER ONE WORK
 https://youtu.be/QgAGm-fepTA
 
+NOTHING 0.0.04 AUDIOCONTROLLER CLASS
+https://youtu.be/3TPhwugoP1U
+
 # What do you need to run this project
 Godot game engine:
 https://godotengine.org/

@@ -35,6 +35,8 @@ https://youtu.be/QgAGm-fepTA
 NOTHING 0.0.04 AUDIOCONTROLLER CLASS
 https://youtu.be/3TPhwugoP1U
 
+NOTHING 0.0.05 FIRST SCENE WORKFLOW, ADDED SKIPPABLE CUTSCENES 
+
 # What do you need to run this project
 Godot game engine:
 https://godotengine.org/

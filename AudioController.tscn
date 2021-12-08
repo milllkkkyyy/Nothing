@@ -1,0 +1,22 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://AudioController.gd" type="Script" id=1]
+
+[node name="AudioController" type="Node2D"]
+pause_mode = 2
+script = ExtResource( 1 )
+audio_music_path = NodePath("Music")
+audio_sfx_path = NodePath("SFX_TRACK_ONE")
+tween_path = NodePath("Tween")
+
+[node name="Music" type="AudioStreamPlayer" parent="."]
+bus = "Music"
+
+[node name="SFX_TRACK_ONE" type="AudioStreamPlayer" parent="."]
+bus = "SFX"
+
+[node name="SFX_TRACK_TWO" type="AudioStreamPlayer" parent="."]
+
+[node name="Tween" type="Tween" parent="."]
+
+[connection signal="tween_completed" from="Tween" to="." method="_on_Tween_tween_completed"]

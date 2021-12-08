@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/autumn keys - l u v e p - 03 l i t t l e p r i n c e.ogg-e3220de5d9a05251d065dd3be39f2c25.oggstr"
+
+[deps]
+
+source_file="res://Audio/Music/autumn keys - l u v e p/autumn keys - l u v e p - 03 l i t t l e p r i n c e.ogg"
+dest_files=[ "res://.import/autumn keys - l u v e p - 03 l i t t l e p r i n c e.ogg-e3220de5d9a05251d065dd3be39f2c25.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

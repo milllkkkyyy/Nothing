@@ -1,0 +1,354 @@
+[gd_scene load_steps=9 format=2]
+
+[ext_resource path="res://QuoteCardFont.tres" type="DynamicFont" id=1]
+[ext_resource path="res://QuoteCard.gd" type="Script" id=2]
+[ext_resource path="res://Menu/Nothing-Regular (1).ttf" type="DynamicFontData" id=3]
+
+[sub_resource type="DynamicFont" id=1]
+size = 32
+outline_size = 1
+use_filter = true
+font_data = ExtResource( 3 )
+
+[sub_resource type="Animation" id=2]
+resource_name = "Continue"
+loop = true
+tracks/0/type = "value"
+tracks/0/path = NodePath("Continue:custom_colors/font_color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.5, 1 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 0,
+"values": [ Color( 0, 0, 0, 0 ), Color( 0, 0, 0, 1 ), Color( 0, 0, 0, 0 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("Continue:custom_colors/font_outline_modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.5, 1 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 0,
+"values": [ Color( 0, 0, 0, 0 ), Color( 0, 0, 0, 1 ), Color( 0, 0, 0, 0 ) ]
+}
+
+[sub_resource type="Animation" id=3]
+resource_name = "ExitScene"
+length = 4.0
+tracks/0/type = "value"
+tracks/0/path = NodePath("LineOne:rect_position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.6, 2 ),
+"transitions": PoolRealArray( 0.3, 5, 1 ),
+"update": 0,
+"values": [ Vector2( 200, 170 ), Vector2( 200, 170 ), Vector2( 200, -53.1577 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("LineTwo:rect_position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.9, 2.3 ),
+"transitions": PoolRealArray( 0.3, 5, 1 ),
+"update": 0,
+"values": [ Vector2( 408.5, 235 ), Vector2( 408.5, 235 ), Vector2( 408.5, -200 ) ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("LineThree:rect_position")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0, 1.2, 2.6 ),
+"transitions": PoolRealArray( 0.3, 5, 1 ),
+"update": 0,
+"values": [ Vector2( 194.5, 285 ), Vector2( 194.5, 285 ), Vector2( 194.5, -150 ) ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("LineFour:rect_position")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0, 1.5, 2.9 ),
+"transitions": PoolRealArray( 0.3, 5, 1 ),
+"update": 0,
+"values": [ Vector2( 386.5, 348 ), Vector2( 386.5, 348 ), Vector2( 386.5, -100 ) ]
+}
+tracks/4/type = "value"
+tracks/4/path = NodePath("Continue:rect_position")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/keys = {
+"times": PoolRealArray( 0, 2.1, 3.6 ),
+"transitions": PoolRealArray( 0.3, 5, 1 ),
+"update": 0,
+"values": [ Vector2( 304, 535 ), Vector2( 304, 535 ), Vector2( 304, 700 ) ]
+}
+
+[sub_resource type="Animation" id=4]
+length = 4.0
+tracks/0/type = "value"
+tracks/0/path = NodePath("LineOne:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("LineOne:rect_position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8 ),
+"transitions": PoolRealArray( 5, 1, 0.5, 1, 1, 1, 1, 0.5, 1 ),
+"update": 1,
+"values": [ Vector2( 200, 620 ), Vector2( 200, 580 ), Vector2( 200, 390 ), Vector2( 200, 260 ), Vector2( 200, 200 ), Vector2( 200, 190 ), Vector2( 200, 175 ), Vector2( 200, 173 ), Vector2( 200, 170 ) ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("LineTwo:visible")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 1 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("LineTwo:rect_position")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0, 1, 1.1, 1.2, 1.3, 1.4, 1.5, 1.6 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1 ),
+"update": 1,
+"values": [ Vector2( 408.5, 620 ), Vector2( 408.5, 620 ), Vector2( 408.5, 590 ), Vector2( 408.5, 390 ), Vector2( 408.5, 290 ), Vector2( 408.5, 250 ), Vector2( 408.5, 240 ), Vector2( 408.5, 235 ) ]
+}
+tracks/4/type = "value"
+tracks/4/path = NodePath("LineThree:visible")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/keys = {
+"times": PoolRealArray( 2 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/5/type = "value"
+tracks/5/path = NodePath("LineThree:rect_position")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/keys = {
+"times": PoolRealArray( 0, 2, 2.1, 2.2, 2.3, 2.4, 2.5, 2.6 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1 ),
+"update": 1,
+"values": [ Vector2( 194.5, 610.506 ), Vector2( 194.5, 610.506 ), Vector2( 194.5, 553.755 ), Vector2( 194.5, 440.253 ), Vector2( 194.5, 328 ), Vector2( 194.5, 295 ), Vector2( 194.5, 290 ), Vector2( 194.5, 285 ) ]
+}
+tracks/6/type = "value"
+tracks/6/path = NodePath("LineFour:visible")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/keys = {
+"times": PoolRealArray( 3 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/7/type = "value"
+tracks/7/path = NodePath("LineFour:rect_position")
+tracks/7/interp = 1
+tracks/7/loop_wrap = true
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/keys = {
+"times": PoolRealArray( 0, 3, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6, 3.7 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1, 1 ),
+"update": 1,
+"values": [ Vector2( 386.5, 611.586 ), Vector2( 386.5, 611.586 ), Vector2( 386.5, 522.891 ), Vector2( 386.5, 434.195 ), Vector2( 386.5, 380 ), Vector2( 386.5, 360 ), Vector2( 386.5, 355 ), Vector2( 386.5, 350 ), Vector2( 386.5, 348 ) ]
+}
+
+[sub_resource type="Animation" id=5]
+tracks/0/type = "value"
+tracks/0/path = NodePath("ColorRect:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 0, 0, 0, 1 ), Color( 0, 0, 0, 0 ) ]
+}
+
+[node name="Control" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+anim_path = NodePath("AnimationPlayer")
+anim_fade_path = NodePath("Fade/AnimationPlayer")
+timer_fade_path = NodePath("Fade/Timer")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+mouse_filter = 2
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="LineOne" type="Label" parent="."]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -312.0
+margin_top = 320.0
+margin_right = 321.0
+margin_bottom = 364.005
+custom_fonts/font = ExtResource( 1 )
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+text = "Turning around I realize. Still,"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="LineTwo" type="Label" parent="."]
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+margin_left = -103.5
+margin_top = 20.0
+margin_right = 103.5
+margin_bottom = 64.0
+custom_fonts/font = ExtResource( 1 )
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+text = "I love you so"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="LineThree" type="Label" parent="."]
+margin_left = 194.5
+margin_top = 610.506
+margin_right = 820.5
+margin_bottom = 654.506
+custom_fonts/font = ExtResource( 1 )
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+text = "Please give me another chance"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="LineFour" type="Label" parent="."]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -125.5
+margin_top = 311.586
+margin_right = 127.5
+margin_bottom = 402.587
+custom_fonts/font = ExtResource( 1 )
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+text = "- Junko Ohashi
+"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Continue" type="Label" parent="."]
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+margin_left = -208.0
+margin_top = -65.0
+margin_right = 208.0
+margin_bottom = -35.0
+custom_fonts/font = SubResource( 1 )
+custom_colors/font_color = Color( 0, 0, 0, 0 )
+custom_colors/font_outline_modulate = Color( 0, 0, 0, 0 )
+text = "PRESS SPACEBAR TO CONTINUE"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+anims/Continue = SubResource( 2 )
+anims/ExitScene = SubResource( 3 )
+anims/TextPopUp = SubResource( 4 )
+
+[node name="Fade" type="Control" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+mouse_filter = 2
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect" type="ColorRect" parent="Fade"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+mouse_filter = 2
+color = Color( 0, 0, 0, 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Fade"]
+anims/Fade = SubResource( 5 )
+
+[node name="Timer" type="Timer" parent="Fade"]
+one_shot = true
+
+[connection signal="animation_finished" from="AnimationPlayer" to="." method="_on_AnimationPlayer_animation_finished"]
+[connection signal="timeout" from="Fade/Timer" to="." method="_on_Timer_timeout"]

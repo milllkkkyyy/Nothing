@@ -38,8 +38,9 @@ https://youtu.be/3TPhwugoP1U
 NOTHING 0.0.05 FIRST SCENE WORKFLOW, ADDED SKIPPABLE CUTSCENES 
 https://youtu.be/tbwO2r-6zIQ
 
+NOTHING 0.0.10 FINISHED MENU, DIALOG
+https://youtu.be/8oOMU2X_a1g
+
 # What do you need to run this project
 Godot game engine:
 https://godotengine.org/
-The addon Diologic:
-https://github.com/coppolaemilio/dialogic

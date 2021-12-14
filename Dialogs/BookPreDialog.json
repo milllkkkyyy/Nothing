@@ -1,0 +1,303 @@
+[
+    {
+        "type": "question",
+        "speaker_id": "Book",
+        "portrait_id": "Normal",
+        "text": "The names Book. Hows it going.,
+        "questions": {
+                "Hey, its good":,
+                "Book?":
+        }
+        "bg_color": "ffffff",
+        "text_speed": 0.03,
+        "_index": 0
+    },
+    
+    {
+        "type": "dialogue",
+        "speaker_id": "Book",
+        "portrait_id": "Normal",
+        "text": "I am named after Booker T. Washington. My parents are history geeks",
+        "bg_color": "ffffff",
+        "next":,
+        "text_speed": 0.03,
+        "_index": 0
+    },
+    
+    {
+        "type": "question",
+        "speaker_id": "Book",
+        "portrait_id": "Normal",
+        "text": "You know I am a Korean Vet?",
+        "questions": {
+            "yeah?":,
+            "thats a lie":
+        },
+        "bg_color": "ffffff",
+        "text_speed": 0.03,
+        "_index": 0
+    },
+    
+    {
+        "type": "question",
+        "speaker_id": "Book",
+        "portrait_id": "Normal",
+        "text": "Play along man.",
+        "questions": {
+                "Okay":,
+                "No, Im okay":
+        },
+        "bg_color": "ffffff",
+        "text_speed": 0.03,
+        "_index": 0
+    },
+    
+    {
+        "type": "dialogue",
+        "speaker_id": "Book",
+        "portrait_id": "Normal",
+        "text": "The korean war was a horrible.",
+        "bg_color": "ffffff",
+        "next":,
+        "text_speed": 0.03,
+        "_index": 0
+    },
+    
+    {
+        "type": "dialogue",
+        "speaker_id": "Book",
+        "portrait_id": "Normal",
+        "text": "We, the african american community, all protested the war.",
+        "bg_color": "ffffff",
+        "next":,
+        "text_speed": 0.03,
+        "_index": 0
+    },
+    
+    {
+        "type": "dialogue",
+        "speaker_id": "Book",
+        "portrait_id": "Normal",
+        "text": "Why fight in a war. Fighting for freedom. When you don't even experience this so called freedom on a day to day basis",
+        "bg_color": "ffffff",
+        "next":,
+        "text_speed": 0.03,
+        "_index": 0
+    },
+    
+    {
+        "type": "dialogue",
+        "speaker_id": "Book",
+        "portrait_id": "Normal",
+        "text": "The draft finally caught up to me though and instead of resiting I let in",
+        "bg_color": "ffffff",
+        "next":,
+        "text_speed": 0.03,
+        "_index": 0
+    },
+    
+    {
+        "type": "dialogue",
+        "speaker_id": "Book",
+        "portrait_id": "Normal",
+        "text": "It feels horrible to say but I have never felt free like how I felt when I was grounded in North Korea",
+        "bg_color": "ffffff",
+        "next":,
+        "text_speed": 0.03,
+        "_index": 0
+    },
+    
+    {
+        "type": "question",
+        "speaker_id": "Book",
+        "portrait_id": "Normal",
+        "text": "I felt like I could do anything. That might have been the blood rush of death though.",
+        "questions": {
+            "hm":
+            "why":
+        }
+        "bg_color": "ffffff",
+        "next":,
+        "text_speed": 0.03,
+        "_index": 0
+    },
+    
+    {
+        "type": "dialogue",
+        "speaker_id": "Book",
+        "portrait_id": "Normal",
+        "text": "Dont get me wrong it was terrifying. I killed innocent people. I killed people who just were fighting for freedom just like me.",
+        "bg_color": "ffffff",
+        "next":,
+        "text_speed": 0.03,
+        "_index": 0
+    },
+    
+    {
+        "type": "dialogue",
+        "speaker_id": "Book",
+        "portrait_id": "Normal",
+        "text": "I miss it sometimes. I came back here and was evicted. My landlord upped my rent and I couldn't pay. Learned a few years ago, a day after I moved out a white family moved in.",
+        "bg_color": "ffffff",
+        "next":,
+        "text_speed": 0.03,
+        "_index": 0
+    },
+    
+    {
+        "type": "dialogue",
+        "speaker_id": "Book",
+        "portrait_id": "Normal",
+        "text": "I heard of a storty in a vet bar about a guy who came home and everyone who was white turned around and didn't clap when his all black squad returned home.",
+        "bg_color": "ffffff",
+        "next":,
+        "text_speed": 0.03,
+        "_index": 0
+    },
+    
+    {
+        "type": "question",
+        "speaker_id": "Book",
+        "portrait_id": "Normal",
+        "text": "Man its fucked.",
+        "questions": {
+            "continue":
+            "oh my god stop":
+        }
+        "bg_color": "ffffff",
+        "next":,
+        "text_speed": 0.03,
+        "_index": 0
+    },
+    
+    {
+        "type": "dialogue",
+        "speaker_id": "Book",
+        "portrait_id": "Normal",
+        "text": "I got nothing else to say sadly. I would recommend taking the time and researching afircan americans in the vietnam war. We get left out of that course.",
+        "bg_color": "ffffff",
+        "next":,
+        "text_speed": 0.03,
+        "_index": 0
+    },
+    
+    {
+        "type": "dialogue",
+        "speaker_id": "Book",
+        "portrait_id": "Normal",
+        "text": "I am sorry I'll stop.",
+        "bg_color": "ffffff",
+        "next":,
+        "text_speed": 0.03,
+        "_index": 0
+    },
+    
+    {
+        "type": "dialogue",
+        "speaker_id": "Book",
+        "portrait_id": "Normal",
+        "text": "You ever do that though?",
+        "bg_color": "ffffff",
+        "next":,
+        "text_speed": 0.03,
+        "_index": 0
+    },
+    
+    {
+        "type": "question",
+        "speaker_id": "Book",
+        "portrait_id": "Normal",
+        "text": "just imagine a life you didn't have?",
+        "questions": {
+                "Yes":
+                "No":
+        }
+        "bg_color": "ffffff",
+        "next":,
+        "text_speed": 0.03,
+        "_index": 0
+    },
+    
+    {
+        "type": "dialogue",
+        "speaker_id": "Book",
+        "portrait_id": "Normal",
+        "text": "Sick. We have all this historical context for life in the past. I just want to feel like those people sometimes. The feelings is what's important. How did they feel.",
+        "bg_color": "ffffff",
+        "next":,
+        "text_speed": 0.03,
+        "_index": 0
+    },
+    
+    
+    {
+        "type": "dialogue",
+        "speaker_id": "Book",
+        "portrait_id": "Normal",
+        "text": "It is pretty strange to do. I mainly do it to understand how people felt in the time periods.",
+        "bg_color": "ffffff",
+        "next":,
+        "text_speed": 0.03,
+        "_index": 0
+    },
+    
+    {
+        "type": "dialogue",
+        "speaker_id": "Book",
+        "portrait_id": "Normal",
+        "text": "I want to implement that in a class structure.",
+        "bg_color": "ffffff",
+        "next":,
+        "text_speed": 0.03,
+        "_index": 0
+    },
+    
+    {
+        "type": "dialogue",
+        "speaker_id": "Book",
+        "portrait_id": "Normal",
+        "text": "I want to major in teaching history. I would have the kids reasearch a character and present them in the class.",
+        "bg_color": "ffffff",
+        "next":,
+        "text_speed": 0.03,
+        "_index": 0
+    },
+    
+    {
+        "type": "question",
+        "speaker_id": "Book",
+        "portrait_id": "Normal",
+        "text": "You think thats a good idea?",
+        "questions": {
+            "yeah sounds fun":
+            "No seems steriotypical"
+        }
+        "bg_color": "ffffff",
+        "next":,
+        "text_speed": 0.03,
+        "_index": 0
+    },
+    
+    {
+        "type": "dialogue",
+        "speaker_id": "Book",
+        "portrait_id": "Normal",
+        "text": "True, I would try to adress that. I am also worried about blackface haha",
+        "bg_color": "ffffff",
+        "next":,
+        "text_speed": 0.03,
+        "_index": 0
+    },
+    
+    {
+        "type": "dialogue",
+        "speaker_id": "Book",
+        "portrait_id": "Normal",
+        "text": "Thanks, I hope it is.",
+        "bg_color": "ffffff",
+        "next":,
+        "text_speed": 0.03,
+        "_index": 0
+    }
+    
+]

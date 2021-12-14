@@ -1,0 +1,207 @@
+[
+    
+    {
+        "type": "question",
+        "speaker_id": "Harry",
+        "portrait_id": "Normal",
+        "text": "Yo its fuck face",
+        "questions": {
+                "Oh Harry":,
+                "Hello":
+        }
+        "bg_color": "ffffff",
+        "text_speed": 0.03,
+        "_index": 0
+    },
+    
+    {
+        "type": "question",
+        "speaker_id": "Harry",
+        "portrait_id": "Whats poppin?",
+        "text": "",
+        "questions": {
+                "Hows the band":,
+                "You still a piece of shit?":
+        }
+        "bg_color": "ffffff",
+        "text_speed": 0.03,
+        "_index": 0
+    },
+    
+    {
+        "type": "dialogue",
+        "speaker_id": "Harry",
+        "portrait_id": "Normal",
+        "text": "You know it.",
+        "next":,
+        "bg_color": "ffffff",
+        "text_speed": 0.03,
+        "_index": 0
+    },
+    
+    {
+        "type": "dialogue",
+        "speaker_id": "Harry",
+        "portrait_id": "Normal",
+        "text": "For real though I am really sorry if I caused you any pain.",
+        "next":,
+        "bg_color": "ffffff",
+        "text_speed": 0.03,
+        "_index": 0
+    },
+    
+    {
+        "type": "question",
+        "speaker_id": "Harry",
+        "portrait_id": "Normal",
+        "text": "I shouldn't make your life any hard especially with this brutal shit we got going on.",
+        "questions": {
+                "Thanks":,
+                "Fuckface?"
+        },
+        "bg_color": "ffffff",
+        "text_speed": 0.03,
+        "_index": 0
+    },
+    
+    {
+        "type": "dialogue",
+        "speaker_id": "Harry",
+        "portrait_id": "Normal",
+        "text": "Well I can't be too nice.",
+        "next":,
+        "bg_color": "ffffff",
+        "text_speed": 0.03,
+        "_index": 0
+    },
+    
+    {
+        "type": "dialogue",
+        "speaker_id": "Harry",
+        "portrait_id": "Normal",
+        "text": "Anytime.",
+        "next":,
+        "bg_color": "ffffff",
+        "text_speed": 0.03,
+        "_index": 0
+    },
+    
+    {
+        "type": "question",
+        "speaker_id": "Harry",
+        "portrait_id": "Normal",
+        "text": "I remember how much I liked you.",
+        "questions": {
+            "Hows the band":,
+            "You still a piece of shit":
+        }
+        "bg_color": "ffffff",
+        "text_speed": 0.03,
+        "_index": 0
+    },
+    
+    {
+        "type": "dialogue",
+        "speaker_id": "Harry",
+        "portrait_id": "Normal",
+        "text": "Yo its fuck face",
+        "next":,
+        "bg_color": "ffffff",
+        "text_speed": 0.03,
+        "_index": 0
+    },
+    
+    {
+        "type": "dialogue",
+        "speaker_id": "Harry",
+        "portrait_id": "Normal",
+        "text": "The band broke up. Yeah one of the members died. We didn't feel good replacing him.",
+        "next":,
+        "bg_color": "ffffff",
+        "text_speed": 0.03,
+        "_index": 0
+    },
+    {
+        "type": "question",
+        "speaker_id": "Harry",
+        "portrait_id": "Normal",
+        "text": "I retired my masterful guitar haha. I am just Harry now.",
+        "questions": {
+                "You dont play?":,
+                "What are you doing now?":
+        },
+        "bg_color": "ffffff",
+        "text_speed": 0.03,
+        "_index": 0
+    },
+    
+    {
+        "type": "question",
+        "speaker_id": "Harry",
+        "portrait_id": "Normal",
+        "text": "I strum from time to time but I am focusing on my studies",
+        "questions": {
+            "Studying what":
+            "Damn"
+        },
+        "bg_color": "ffffff",
+        "text_speed": 0.03,
+        "_index": 0
+    },
+    
+    {
+        "type": "dialogue",
+        "speaker_id": "Harry",
+        "portrait_id": "Normal",
+        "text": "Yeah I made a complete flip",
+        "next":,
+        "bg_color": "ffffff",
+        "text_speed": 0.03,
+        "_index": 0
+    },
+    
+    {
+        "type": "dialogue",
+        "speaker_id": "Harry",
+        "portrait_id": "Normal",
+        "text": "I am gonna become a lawyer.",
+        "next":,
+        "bg_color": "ffffff",
+        "text_speed": 0.03,
+        "_index": 0
+    },
+    
+    {
+        "type": "dialogue",
+        "speaker_id": "Harry",
+        "portrait_id": "Normal",
+        "text": "Put my cockiness to a true test",
+        "next":,
+        "bg_color": "ffffff",
+        "text_speed": 0.03,
+        "_index": 0
+    },
+    
+    {
+        "type": "dialogue",
+        "speaker_id": "Harry",
+        "portrait_id": "Normal",
+        "text": "I hope we can be friends and chill. I am really sorry about how I acted before",
+        "next":,
+        "bg_color": "ffffff",
+        "text_speed": 0.03,
+        "_index": 0
+    },
+    
+    {
+        "type": "dialogue",
+        "speaker_id": "Harry",
+        "portrait_id": "Normal",
+        "text": "I have to go actually, but it was nice meeting you again.",
+        "next":,
+        "bg_color": "ffffff",
+        "text_speed": 0.03,
+        "_index": 0
+    },
+    
+]

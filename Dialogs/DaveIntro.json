@@ -1,0 +1,56 @@
+[
+    {
+        "type": "dialogue",
+        "speaker_id": "Dave",
+        "portrait_id": "Happy",
+        "text": "HELLO! Welcome to Nothing Universities first ever speed dating event.",
+        "next": 1,
+        "bg_color": "ffffff",
+        "text_speed": 0.03,
+        "_index": 0
+    },
+
+    {
+        "type": "dialogue",
+        "speaker_id": "Dave",
+        "portrait_id": "Normal",
+        "text": "Here are the signup forms.",
+        "next": 2,
+        "bg_color": "ffffff",
+        "text_speed": 0.03,
+        "_index": 1
+    },
+
+    {
+        "type": "dialogue",
+        "speaker_id": "Dave",
+        "portrait_id": "Happy",
+        "text": "Okay perfect! Next year we will contact you for our reuinion for the speed dating event!",
+        "next": 3,
+        "bg_color": "ffffff",
+        "text_speed": 0.03,
+        "_index": 2
+    },
+
+    {
+        "type": "dialogue",
+        "speaker_id": "Dave",
+        "portrait_id": "Normal",
+        "text": "You get five minutes to have a chat then we'll rotate!",
+        "next": 4,
+        "bg_color": "ffffff",
+        "text_speed": 0.03,
+        "_index": 3
+    },
+
+    {
+        "type": "dialogue",
+        "speaker_id": "Dave",
+        "portrait_id": "Happy",
+        "text": "Okay go find a partner we're gonna start soon!",
+        "next": 5,
+        "bg_color": "ffffff",
+        "text_speed": 0.03,
+        "_index": 4
+    }
+]

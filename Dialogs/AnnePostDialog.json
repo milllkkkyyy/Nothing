@@ -1,0 +1,392 @@
+[
+    {
+        "type": "question",
+        "speaker_id": "Anne",
+        "portrait_id": "Normal",
+        "text": "hey.",
+        "questions": {
+            "how are you doing":,
+            "hey again"
+        }
+        "next":,
+        "bg_color": "ffffff",
+        "text_speed": 0.03,
+        "_index": 0
+    },
+    
+    {
+        "type": "dialogue",
+        "speaker_id": "Anne",
+        "portrait_id": "Normal",
+        "text": "hey.",
+        "next":,
+        "bg_color": "ffffff",
+        "text_speed": 0.03,
+        "_index": 0
+    },
+    
+    {
+        "type": "dialogue",
+        "speaker_id": "Anne",
+        "portrait_id": "Normal",
+        "text": "fine.",
+        "next":,
+        "bg_color": "ffffff",
+        "text_speed": 0.03,
+        "_index": 0
+    },
+    
+    {
+        "type": "question",
+        "speaker_id": "Anne",
+        "portrait_id": "Normal",
+        "text": "thanks for asking",
+        "questions": {
+            "Hows the animals":,
+            "Are you sure?":
+        }
+        "bg_color": "ffffff",
+        "text_speed": 0.03,
+        "_index": 0
+    },
+    
+    {
+        "type": "dialogue",
+        "speaker_id": "Anne",
+        "portrait_id": "Normal",
+        "text": "No.",
+        "next":,
+        "bg_color": "ffffff",
+        "text_speed": 0.03,
+        "_index": 0
+    },
+    
+    {
+        "type": "question",
+        "speaker_id": "Anne",
+        "portrait_id": "Normal",
+        "text": "Not Really",
+        "questions": {
+                "whats wrong":,
+                "hows the animals":
+        }
+        "bg_color": "ffffff",
+        "text_speed": 0.03,
+        "_index": 0
+    },
+    
+    {
+        "type": "question",
+        "speaker_id": "Anne",
+        "portrait_id": "Normal",
+        "text": "They're good. I think.",
+        "questions": {
+                "you think?":,
+                "that is good":
+        }
+        "bg_color": "ffffff",
+        "text_speed": 0.03,
+        "_index": 0
+    },
+    
+    {
+        "type": "dialogue",
+        "speaker_id": "Anne",
+        "portrait_id": "Normal",
+        "text": "I do think",
+        "next":,
+        "bg_color": "ffffff",
+        "text_speed": 0.03,
+        "_index": 0
+    },
+    
+    {
+        "type": "dialogue",
+        "speaker_id": "Anne",
+        "portrait_id": "Normal",
+        "text": "It is not good.",
+        "next":,
+        "bg_color": "ffffff",
+        "text_speed": 0.03,
+        "_index": 0
+    },
+    
+    {
+        "type": "dialogue",
+        "speaker_id": "Anne",
+        "portrait_id": "Normal",
+        "text": "I am an orphan.",
+        "next":,
+        "bg_color": "ffffff",
+        "text_speed": 0.03,
+        "_index": 0
+    },
+    
+    {
+        "type": "dialogue",
+        "speaker_id": "Anne",
+        "portrait_id": "Normal",
+        "text": "The pandemic made me an orphan.",
+        "next":,
+        "bg_color": "ffffff",
+        "text_speed": 0.03,
+        "_index": 0
+    },
+    
+    {
+        "type": "dialogue",
+        "speaker_id": "Anne",
+        "portrait_id": "Normal",
+        "text": "I can't even say what happened",
+        "next":,
+        "bg_color": "ffffff",
+        "text_speed": 0.03,
+        "_index": 0
+    },
+    
+    {
+        "type": "dialogue",
+        "speaker_id": "Anne",
+        "portrait_id": "Normal",
+        "text": "it happened to fast.",
+        "next":,
+        "bg_color": "ffffff",
+        "text_speed": 0.03,
+        "_index": 0
+    }
+    
+    {
+        "type": "dialogue",
+        "speaker_id": "Anne",
+        "portrait_id": "Normal",
+        "text": "I didn't have any money to take care of the dog or even my house",
+        "next":,
+        "bg_color": "ffffff",
+        "text_speed": 0.03,
+        "_index": 0
+    },
+    
+    {
+        "type": "dialogue",
+        "speaker_id": "Anne",
+        "portrait_id": "Normal",
+        "text": "I am homeless. My animals are in the shelter",
+        "next":,
+        "bg_color": "ffffff",
+        "text_speed": 0.03,
+        "_index": 0
+    },
+    
+    {
+        "type": "dialogue",
+        "speaker_id": "Anne",
+        "portrait_id": "Normal",
+        "text": "Fuck this",
+        "next":,
+        "bg_color": "ffffff",
+        "text_speed": 0.03,
+        "_index": 0
+    },
+    
+    {
+        "type": "dialogue",
+        "speaker_id": "Anne",
+        "portrait_id": "Normal",
+        "text": "Like why am I alive?",
+        "next":,
+        "bg_color": "ffffff",
+        "text_speed": 0.03,
+        "_index": 0
+    },
+    
+    {
+        "type": "question",
+        "speaker_id": "Anne",
+        "portrait_id": "Normal",
+        "text": "Just finish me off you know.",
+        "questions": {
+            "I am so sorry":,
+            "I can help"
+        }
+        "bg_color": "ffffff",
+        "text_speed": 0.03,
+        "_index": 0
+    },
+    
+    {
+        "type": "question",
+        "speaker_id": "Anne",
+        "portrait_id": "Normal",
+        "text": "With what?",
+        "questions": {
+                "A place to say":,
+                "Nevermind"
+        },
+        "bg_color": "ffffff",
+        "text_speed": 0.03,
+        "_index": 0
+    },
+    
+    {
+        "type": "dialogue",
+        "speaker_id": "Anne",
+        "portrait_id": "Normal",
+        "text": "Really?",
+        "next":,
+        "bg_color": "ffffff",
+        "text_speed": 0.03,
+        "_index": 0
+    },
+    
+    {
+        "type": "dialogue",
+        "speaker_id": "Anne",
+        "portrait_id": "Normal",
+        "text": "Okay.",
+        "next":,
+        "bg_color": "ffffff",
+        "text_speed": 0.03,
+        "_index": 0
+    },
+    
+    {
+        "type": "question",
+        "speaker_id": "Anne",
+        "portrait_id": "Normal",
+        "text": "For real?",
+        "questions": {
+                "Yes":,
+                "No"
+        },
+        "bg_color": "ffffff",
+        "text_speed": 0.03,
+        "_index": 0
+    },
+    
+    {
+        "type": "question",
+        "speaker_id": "Anne",
+        "portrait_id": "Normal",
+        "text": "Are you lying",
+        "questions": {
+                "Yes":,
+                "No"
+        },
+        "bg_color": "ffffff",
+        "text_speed": 0.03,
+        "_index": 0
+    },
+    
+    {
+        "type": "dialogue",
+        "speaker_id": "Anne",
+        "portrait_id": "Normal",
+        "text": "[She looks at you heisitent]",
+        "next":,
+        "bg_color": "ffffff",
+        "text_speed": 0.03,
+        "_index": 0
+    },
+    
+    {
+        "type": "dialogue",
+        "speaker_id": "Anne",
+        "portrait_id": "Normal",
+        "text": "I would be down",
+        "next":,
+        "bg_color": "ffffff",
+        "text_speed": 0.03,
+        "_index": 0
+    },
+    
+    {
+        "type": "dialogue",
+        "speaker_id": "Anne",
+        "portrait_id": "Normal",
+        "text": "Thank you so much.",
+        "next":,
+        "bg_color": "ffffff",
+        "text_speed": 0.03,
+        "_index": 0
+    }
+            
+    {
+        "type": "dialogue",
+        "speaker_id": "Anne",
+        "portrait_id": "Normal",
+        "text": "Why?",
+        "next":,
+        "bg_color": "ffffff",
+        "text_speed": 0.03,
+        "_index": 0
+    }
+    
+    {
+        "type": "dialogue",
+        "speaker_id": "Anne",
+        "portrait_id": "Normal",
+        "text": "Did you create the virus?",
+        "next":,
+        "bg_color": "ffffff",
+        "text_speed": 0.03,
+        "_index": 0
+    },
+    
+    {
+        "type": "dialogue",
+        "speaker_id": "Anne",
+        "portrait_id": "MAD",
+        "text": "WHY ARE YOU SORRY",
+        "next":,
+        "bg_color": "ffffff",
+        "text_speed": 0.03,
+        "_index": 0
+    },
+    
+    {
+        "type": "dialogue",
+        "speaker_id": "Anne",
+        "portrait_id": "Normal",
+        "text": "[she stops talking and shakes]",
+        "next":,
+        "bg_color": "ffffff",
+        "text_speed": 0.03,
+        "_index": 0
+    },
+    
+    {
+        "type": "dialogue",
+        "speaker_id": "Anne",
+        "portrait_id": "Normal",
+        "text": "I am sorry",
+        "next":,
+        "bg_color": "ffffff",
+        "text_speed": 0.03,
+        "_index": 0
+    },
+    
+    {
+        "type": "dialogue",
+        "speaker_id": "Anne",
+        "portrait_id": "Normal",
+        "text": "I have to go.",
+        "next":,
+        "bg_color": "ffffff",
+        "text_speed": 0.03,
+        "_index": 0
+    }
+    
+    {
+        "type": "dialogue",
+        "speaker_id": "Anne",
+        "portrait_id": "Normal",
+        "text": "",
+        "next":,
+        "bg_color": "ffffff",
+        "text_speed": 0.03,
+        "_index": 0
+    }
+    
+    
+
+]

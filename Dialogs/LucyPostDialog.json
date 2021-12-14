@@ -1,52 +1,46 @@
 [
-	{
-		"title": "Start",
-		"tags": "",
-		"body": "Hello! You talked to Lucy correct?",
-		"position": {
-			"x": -186,
-			"y": 12
-		},
-		"colorID": 0
-	},
-	{
-		"title": "Node",
-		"tags": "",
-		"body": "I have wanted to let you know formally that she passed away.",
-		"position": {
-			"x": -186,
-			"y": 228
-		},
-		"colorID": 0
-	},
-	{
-		"title": "Node_2",
-		"tags": "",
-		"body": "I am really sorry if you knew her well. I wish we did not have to go through that retched time.\nWe really should have seen it coming. Looked at the birds like the do in the movies haha...",
-		"position": {
-			"x": 28,
-			"y": 230
-		},
-		"colorID": 0
-	},
-	{
-		"title": "Node_3",
-		"tags": "",
-		"body": "...",
-		"position": {
-			"x": 29,
-			"y": 441
-		},
-		"colorID": 0
-	},
-	{
-		"title": "Node_4",
-		"tags": "",
-		"body": "I can sit with you while you wait for the next person.",
-		"position": {
-			"x": 240,
-			"y": 441
-		},
-		"colorID": 0
-	}
+    {
+        "type": "dialogue",
+        "speaker_id": "Dave",
+        "portrait_id": "Sad",
+        "text": "hey. I am really sorry for me to be the one telling you this information.",
+        "next": 1,
+        "bg_color": "ffffff",
+        "text_speed": 0.03,
+        "_index": 0
+    },
+    
+    {
+        "type": "dialogue",
+        "speaker_id": "Dave",
+        "portrait_id": "Sad",
+        "text": "Lucy died from the pandemic.",
+        "next": 1,
+        "bg_color": "ffffff",
+        "text_speed": 0.03,
+        "_index": 0
+    },
+    
+    {
+        "type": "dialogue",
+        "speaker_id": "Dave",
+        "portrait_id": "Sad",
+        "text": "I remember she believed in religion of some sort.",
+        "next": 1,
+        "bg_color": "ffffff",
+        "text_speed": 0.03,
+        "_index": 0
+    },
+    
+    {
+        "type": "dialogue",
+        "speaker_id": "Dave",
+        "portrait_id": "Sad",
+        "text": "I hope she is somewhere peaceful",
+        "next": 1,
+        "bg_color": "ffffff",
+        "text_speed": 0.03,
+        "_index": 0
+    },
+    
 ]

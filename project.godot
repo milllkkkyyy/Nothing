@@ -10,18 +10,26 @@ config_version=4
 
 [application]
 
-config/name="NOTHING (SCHOOL PROJECT)"
-run/main_scene="res://Dialog/Dialog.tscn"
+config/name="NOTHING"
+run/main_scene="res://Menu/Main.tscn"
+config/icon="res://Images/Leaf.png"
+config/macos_native_icon="res://Images/Leaf.icns"
+config/windows_native_icon="res://Images/leaf_ep8_icon.ico"
+
+[audio]
+
+default_bus_layout="res://Globals/default_bus_layout.tres"
 
 [autoload]
 
-SceneLoader="*res://SceneLoader.gd"
-Globals="*res://Globals.gd"
-AudioController="*res://AudioController.tscn"
+Ui="*res://Globals/UI.tscn"
+SceneLoader="*res://Globals/SceneLoader.gd"
+Globals="*res://Globals/Globals.gd"
+AudioController="*res://Globals/AudioController.tscn"
 
 [display]
 
-mouse_cursor/custom_image="res://Test/Images/default_mouse_64.png"
+mouse_cursor/custom_image="res://Images/default_mouse_64.png"
 
 [physics]
 

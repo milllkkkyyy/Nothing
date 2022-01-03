@@ -1,7 +1,7 @@
-[gd_scene load_steps=19 format=2]
+[gd_scene load_steps=24 format=2]
 
 [ext_resource path="res://Menu/Images/Grabber_trim.png" type="Texture" id=1]
-[ext_resource path="res://Test/Font/Nothing-Regular.ttf" type="DynamicFontData" id=2]
+[ext_resource path="res://Font/Nothing-Regular.ttf" type="DynamicFontData" id=2]
 [ext_resource path="res://Menu/Nothing-Regular (1).ttf" type="DynamicFontData" id=3]
 [ext_resource path="res://Settings/Settings.gd" type="Script" id=4]
 [ext_resource path="res://Menu/menu_font.tres" type="DynamicFont" id=6]
@@ -46,6 +46,59 @@ animations = [ {
 "speed": 5.0
 } ]
 
+[sub_resource type="StyleBoxFlat" id=10]
+bg_color = Color( 0, 0, 0, 1 )
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+corner_radius_top_left = 5
+corner_radius_top_right = 5
+corner_radius_bottom_right = 5
+corner_radius_bottom_left = 5
+
+[sub_resource type="StyleBoxFlat" id=11]
+bg_color = Color( 1, 1, 1, 1 )
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color( 0, 0, 0, 1 )
+corner_radius_top_left = 5
+corner_radius_top_right = 5
+corner_radius_bottom_right = 5
+corner_radius_bottom_left = 5
+
+[sub_resource type="StyleBoxFlat" id=12]
+bg_color = Color( 0, 0, 0, 1 )
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+corner_radius_top_left = 5
+corner_radius_top_right = 5
+corner_radius_bottom_right = 5
+corner_radius_bottom_left = 5
+
+[sub_resource type="StyleBoxFlat" id=13]
+bg_color = Color( 1, 1, 1, 1 )
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color( 0, 0, 0, 1 )
+corner_radius_top_left = 5
+corner_radius_top_right = 5
+corner_radius_bottom_right = 5
+corner_radius_bottom_left = 5
+
+[sub_resource type="DynamicFont" id=14]
+size = 32
+outline_size = 1
+outline_color = Color( 0, 0, 0, 1 )
+use_filter = true
+font_data = ExtResource( 2 )
+
 [node name="Settings" type="Control"]
 pause_mode = 2
 anchor_right = 1.0
@@ -58,6 +111,7 @@ music_slider_path = NodePath("MarginContainer/CenterContainer/VBoxContainer/Cent
 sfx_slider_path = NodePath("MarginContainer/CenterContainer/VBoxContainer/CenterContainer3/HBoxContainer2/CenterContainer2/SFX")
 sprite_return_path = NodePath("MarginContainer/CenterContainer/VBoxContainer/CenterContainer2/AnimatedSprite")
 button_return_path = NodePath("MarginContainer/CenterContainer/VBoxContainer/CenterContainer2/Return")
+button_main_menu_path = NodePath("MainMenuButton")
 
 [node name="ColorRect" type="ColorRect" parent="."]
 anchor_right = 1.0
@@ -220,8 +274,29 @@ visible = false
 position = Vector2( 323.331, 12.8325 )
 frames = SubResource( 9 )
 
+[node name="MainMenuButton" type="Button" parent="."]
+anchor_top = -0.00198201
+anchor_bottom = -0.00198201
+margin_left = 29.8664
+margin_top = 535.61
+margin_right = 169.866
+margin_bottom = 578.61
+custom_styles/hover = SubResource( 10 )
+custom_styles/pressed = SubResource( 11 )
+custom_styles/focus = SubResource( 12 )
+custom_styles/normal = SubResource( 13 )
+custom_fonts/font = SubResource( 14 )
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_colors/font_color_hover = Color( 1, 1, 1, 1 )
+custom_colors/font_color_pressed = Color( 1, 1, 1, 1 )
+text = " Main Menu "
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
 [connection signal="value_changed" from="MarginContainer/CenterContainer/VBoxContainer/CenterContainer/HBoxContainer/CenterContainer2/Music" to="." method="_on_Music_value_changed"]
 [connection signal="value_changed" from="MarginContainer/CenterContainer/VBoxContainer/CenterContainer3/HBoxContainer2/CenterContainer2/SFX" to="." method="_on_SFX_value_changed"]
 [connection signal="mouse_entered" from="MarginContainer/CenterContainer/VBoxContainer/CenterContainer2/Return" to="." method="_on_Return_mouse_entered"]
 [connection signal="mouse_exited" from="MarginContainer/CenterContainer/VBoxContainer/CenterContainer2/Return" to="." method="_on_Return_mouse_exited"]
 [connection signal="pressed" from="MarginContainer/CenterContainer/VBoxContainer/CenterContainer2/Return" to="." method="_on_Return_pressed"]
+[connection signal="pressed" from="MainMenuButton" to="." method="_on_MainMenuButton_pressed"]

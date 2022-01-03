@@ -41,6 +41,12 @@ https://youtu.be/tbwO2r-6zIQ
 NOTHING 0.0.10 FINISHED MENU, DIALOG
 https://youtu.be/8oOMU2X_a1g
 
+NOTHING 0.1.0 EARLY ACCESS REALEASE
+https://machiteastudios.itch.io/nothing
+
+NOTHING 0.1.0+ UPDATES ARE ON ITCH.IO
+https://machiteastudios.itch.io/nothing
+
 # What do you need to run this project
 Godot game engine:
 https://godotengine.org/

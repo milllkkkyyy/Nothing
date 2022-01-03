@@ -15,10 +15,10 @@
         "speaker_id": "Dave",
         "portrait_id": "Sad",
         "text": "Lucy died from the pandemic.",
-        "next": 1,
+        "next": 2,
         "bg_color": "ffffff",
         "text_speed": 0.03,
-        "_index": 0
+        "_index": 1
     },
     
     {
@@ -26,10 +26,10 @@
         "speaker_id": "Dave",
         "portrait_id": "Sad",
         "text": "I remember she believed in religion of some sort.",
-        "next": 1,
+        "next": 3,
         "bg_color": "ffffff",
         "text_speed": 0.03,
-        "_index": 0
+        "_index": 2
     },
     
     {
@@ -37,10 +37,10 @@
         "speaker_id": "Dave",
         "portrait_id": "Sad",
         "text": "I hope she is somewhere peaceful",
-        "next": 1,
+        "next": 4,
         "bg_color": "ffffff",
         "text_speed": 0.03,
-        "_index": 0
-    },
+        "_index": 3
+    }
     
 ]

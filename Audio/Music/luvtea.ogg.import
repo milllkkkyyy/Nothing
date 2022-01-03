@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/luvtea.ogg-50b158058bb3738b6b603aee0c5d853f.oggstr"
+
+[deps]
+
+source_file="res://Audio/Music/luvtea.ogg"
+dest_files=[ "res://.import/luvtea.ogg-50b158058bb3738b6b603aee0c5d853f.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

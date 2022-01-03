@@ -1,0 +1,35 @@
+[
+    {
+        "type": "dialogue",
+        "speaker_id": "Dave",
+        "portrait_id": "Happy",
+        "text": "Welcome to the reunion for the speed dating event.",
+        "next": 1,
+        "bg_color": "ffffff",
+        "text_speed": 0.03,
+        "_index": 0
+    },
+
+    {
+        "type": "dialogue",
+        "speaker_id": "Dave",
+        "portrait_id": "Sad",
+        "text": "It sucks it had to be delayed because of the pandemic. The pandemic sucks in general.",
+        "next": 2,
+        "bg_color": "ffffff",
+        "text_speed": 0.03,
+        "_index": 1
+    },
+
+    {
+        "type": "dialogue",
+        "speaker_id": "Dave",
+        "portrait_id": "Happy",
+        "text": "I hope everyone is doing good you meet before and have a good time in there.",
+        "next": 3,
+        "bg_color": "ffffff",
+        "text_speed": 0.03,
+        "_index": 2
+    }
+
+]

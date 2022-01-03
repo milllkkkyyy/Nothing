@@ -31,7 +31,7 @@
         "portrait_id": "Sad",
         "text": "Aww poor thing.",
         "next": 3,
-        "bg_color": "a07676",
+        "bg_color": "c87676",
         "text_speed": 0.03,
         "_index": 2
     },
@@ -288,7 +288,7 @@
         "portrait_id": "Sad",
         "text": "Interesting. I feel like I need to in order to make sure I don't get to anxious about the fact I don't know where I am going when I die.",
         "next": 25,
-        "bg_color": "a07676",
+        "bg_color": "c87676",
         "text_speed": 0.03,
         "_index": 24
     },
@@ -299,7 +299,7 @@
         "portrait_id": "Sad",
         "text": "Like there is just a thing we as a humanity don't understand.",
         "next": 26,
-        "bg_color": "a07676",
+        "bg_color": "c87676",
         "text_speed": 0.03,
         "_index": 25
     },
@@ -371,7 +371,7 @@
         "portrait_id": "Sad",
         "text": "Damn.",
         "next": 33,
-        "bg_color": "a07676",
+        "bg_color": "c87676",
         "text_speed": 0.03,
         "_index": 31
     },
@@ -393,7 +393,7 @@
         "portrait_id": "Sad",
         "text": "I'm really sorry for taking this to a dark area. I just enjoy talking to people who believe differently than I do.",
         "next": 29,
-        "bg_color": "a07676",
+        "bg_color": "c87676",
         "text_speed": 0.03,
         "_index": 33
     }

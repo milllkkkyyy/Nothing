@@ -3,32 +3,38 @@ extends Control
 export (float) var textSpeed = 0.05
 
 export (NodePath) var timerPath
+export (NodePath) var inputDelayPath
 export (NodePath) var portraitPath
 export (NodePath) var textPath
 export (NodePath) var namePath
 export (NodePath) var Q1ButtonPath
 export (NodePath) var Q2ButtonPath
 export (NodePath) var indicatorPath
-export (NodePath) var animPath
+export (NodePath) var indicatorAnimPath
+export (NodePath) var loadAnimPath
+export (NodePath) var colorRectPath
 
-var dialogPath = "res://Dialogs/SamDialog.json"
+var dialogPath = ""
 var timer: Timer
+var inputDelay: Timer
 var nameLabel: RichTextLabel
 var textLabel: RichTextLabel
 var portrait: Sprite
 var Q1Button: Button
 var Q2Button: Button
 var indicator: Polygon2D 
-var anim: AnimationPlayer
+var indicatorAnim: AnimationPlayer
+var loadAnim: AnimationPlayer
+var colorRect: ColorRect
 var dialog
 
 var phraseNum = 0
 var finished = false
 var question = false
+signal isFinished 
 
 func _ready():
 	_initialize()
-	self._initialize_dialog(dialogPath)
 	
 func _initialize():
 	timer = get_node(timerPath)
@@ -38,17 +44,23 @@ func _initialize():
 	Q1Button = get_node(Q1ButtonPath)
 	Q2Button =  get_node(Q2ButtonPath)
 	indicator = get_node(indicatorPath)
-	anim = get_node(animPath)
+	indicatorAnim = get_node(indicatorAnimPath)
+	colorRect = get_node(colorRectPath)
+	inputDelay = get_node(inputDelayPath)
+	loadAnim = get_node(loadAnimPath)
 	
 func _process(_delta):
-	if Input.is_action_just_pressed("ui_accept"):
+	if Input.is_action_just_pressed("ui_accept") and inputDelay.is_stopped():
 		if finished:
 			phraseNum = int(dialog[phraseNum]["next"])
 			nextPhrase()
+			inputDelay.start()
 		else:
 			textLabel.visible_characters = len(textLabel.text)
 		
-func _initialize_dialog(path):
+func initialize_dialog(path):
+	visible = true
+	set_button_visibility(true)
 	timer.wait_time = textSpeed
 	dialog = getDialog(path)
 	assert(dialog, "Dialog not found")
@@ -70,11 +82,9 @@ func getDialog(path) -> Array:
 	
 func nextPhrase() -> void:
 	if phraseNum >= len(dialog):
-		queue_free()
+		emit_signal("isFinished")
 		return 
 	
-	Q1Button.visible = false
-	Q2Button.visible = false
 	indicator.visible = false
 	finished = false
 	
@@ -92,6 +102,7 @@ func setup(option):
 	nameLabel.bbcode_text = dialog[phraseNum]["speaker_id"]
 	textLabel.bbcode_text = dialog[phraseNum]["text"]
 	timer.wait_time = dialog[phraseNum]["text_speed"]
+	colorRect.color = Color(dialog[phraseNum]["bg_color"])
 	
 	if option == "Question":
 		var i = 0
@@ -103,12 +114,8 @@ func setup(option):
 					Q2Button.text = key
 			i+= 1
 
-	var f = File.new()
 	var img = "res://Images/" + dialog[phraseNum]["speaker_id"] + dialog[phraseNum]["portrait_id"] + ".png"
-	if f.file_exists(img):
-		portrait.texture = load(img)
-	else:
-		portrait.texture = null
+	portrait.texture = load(img)
 	
 	while textLabel.visible_characters < len(textLabel.text):
 		textLabel.visible_characters += 1
@@ -120,15 +127,22 @@ func setup(option):
 		"Dialog":
 			finished = true
 			indicator.visible = true
-			anim.play("Bounce")
+			indicatorAnim.play("Bounce")
 		"Question":
-			Q1Button.visible = true
-			Q2Button.visible = true
+			set_button_visibility(false)
 	
 func _on_Q1Button_pressed():
-	phraseNum = int(dialog[phraseNum]["questions"][Q1Button.text]["next"])
+	phraseNum = int(dialog[phraseNum]["questions"][Q1Button.text])
+	set_button_visibility(true)
 	nextPhrase()
 	
 func _on_Q2Button_pressed():
-	phraseNum = int(dialog[phraseNum]["questions"][Q1Button.text]["next"])
+	phraseNum = int(dialog[phraseNum]["questions"][Q2Button.text])
+	set_button_visibility(true)
 	nextPhrase()
+
+func set_button_visibility(are_visible):
+	Q1Button.disabled = are_visible
+	Q2Button.disabled = are_visible
+	Q1Button.visible = !are_visible
+	Q2Button.visible = !are_visible

@@ -1,11 +1,11 @@
 [
     {
-        "type": "question",
+        "type": "dialogue",
         "speaker_id": "Anne",
         "portrait_id": "Normal",
         "text": "hey.",
-        "next":,
-        "bg_color": "ffffff",
+        "next": 1,
+        "bg_color": "e7eb70",
         "text_speed": 0.03,
         "_index": 0
     },
@@ -15,113 +15,114 @@
         "speaker_id": "Anne",
         "portrait_id": "Normal",
         "text": "My name is Anne Marie but you can just call me Anne",
-        "next": ,
-        "bg_color": "ffffff",
+        "next": 2,
+        "bg_color": "e7eb70",
         "text_speed": 0.03,
-        "_index": 0
+        "_index": 1
     },
 
     {
         "type": "question",
         "speaker_id": "Anne",
         "portrait_id": "Normal",
-        "text": "Is this your first time.",
+        "text": "Is this your first time?",
         "questions": {
-                "first time?":,
-                "I'm a bit of a player":
+                "first time?": 3,
+                "I'm a bit of a player": 5
         },
-        "bg_color": "ffffff",
+        "bg_color": "e7eb70",
         "text_speed": 0.03,
-        "_index": 0
+        "_index": 2
     },
 
     {
         "type": "dialogue",
         "speaker_id": "Anne",
-        "portrait_id": "Normal",
+        "portrait_id": "Happy",
         "text": "Oh! I am so stupid, I am sorry haha I meant like at a dating event.",
-        "next": ,
-        "bg_color": "ffffff",
+        "next": 4,
+        "bg_color": "e7eb70",
         "text_speed": 0.03,
-        "_index": 0
+        "_index": 3
     },
 
     {
-        "type": "questions",
+        "type": "question",
         "speaker_id": "Anne",
-        "portrait_id": "Normal",
+        "portrait_id": "Happy",
         "text": "Lets switch the topic haha. How about animals? Do you have any?",
         "questions": {
-                "yes":,
-                "no":
+                "yes": 7,
+                "no": 11
         },
-        "bg_color": "ffffff",
+        "bg_color": "e7eb70",
         "text_speed": 0.03,
-        "_index": 0
+        "_index": 4
     },
 
     {
         "type": "dialogue",
         "speaker_id": "Anne",
-        "portrait_id": "Normal",
+        "portrait_id": "Happy",
         "text": "Wow well I hope I can be played then.",
-        "next": ,
-        "bg_color": "ffffff",
+        "next": 6,
+        "bg_color": "e7eb70",
         "text_speed": 0.03,
-        "_index": 0
+        "_index": 5
     },
     {
         "type": "dialogue",
         "speaker_id": "Anne",
         "portrait_id": "Normal",
         "text": "Did I just say that? Oh goodness.",
-        "next": ,
-        "bg_color": "ffffff",
+        "next": 4,
+        "bg_color": "e7eb70",
         "text_speed": 0.03,
-        "_index": 0
+        "_index": 6
     },
 
     {
         "type": "dialogue",
         "speaker_id": "Anne",
-        "portrait_id": "Normal",
+        "portrait_id": "Happy",
         "text": "Yes! Animals are so iconic.",
-        "next": ,
-        "bg_color": "ffffff",
+        "next": 8,
+        "bg_color": "e7eb70",
         "text_speed": 0.03,
-        "_index": 0
+        "_index": 7
     },
 
     {
         "type": "dialogue",
         "speaker_id": "Anne",
-        "portrait_id": "Normal",
+        "portrait_id": "Happy",
         "text": "The amount of cat falling videos or goat yoga videos I watch is probably unhealthy.",
-        "next": ,
-        "bg_color": "ffffff",
+        "next": 9,
+        "bg_color": "e7eb70",
         "text_speed": 0.03,
-        "_index": 0
+        "_index": 8
     },
 
     {
         "type": "dialogue",
         "speaker_id": "Anne",
-        "portrait_id": "Normal",
+        "portrait_id": "Happy",
         "text": "I have a giant fluffy white dog, and a frog. ha that ryhmed",
-        "bg_color": "ffffff",
+        "next": 10,
+        "bg_color": "e7eb70",
         "text_speed": 0.03,
-        "_index": 0
+        "_index": 9
     },
 
     {
         "type": "dialogue",
         "speaker_id": "Anne",
-        "portrait_id": "Normal",
+        "portrait_id": "Happy",
         "text": "before you ask yes that is my frog on top of my head. Well not my actual frog but him as a crocheted frog.",
-        "next": ,
-        "bg_color": "ffffff",
+        "next": 13,
+        "bg_color": "e7eb70",
         "text_speed": 0.03,
-        "_index": 0
+        "_index": 10
     },
 
     {
@@ -130,37 +131,37 @@
         "portrait_id": "Normal",
         "text": "Why not? They're literally the best.",
         "questions": {
-                "not enough time":,
-                "too much work":
+                "not enough time": 12,
+                "too much work": 12
         },
-        "bg_color": "ffffff",
+        "bg_color": "e7eb70",
         "text_speed": 0.03,
-        "_index": 0
+        "_index": 11
     },
 
     {
         "type": "dialogue",
         "speaker_id": "Anne",
-        "portrait_id": "Normal",
+        "portrait_id": "happy",
         "text": "Not a good enough excuse for me if I am being honest. They are just too cute.",
-        "next": ,
-        "bg_color": "ffffff",
+        "next": 13,
+        "bg_color": "e7eb70",
         "text_speed": 0.03,
-        "_index": 0
+        "_index": 12
     },
 
     {
-        "type": "dialogue",
+        "type": "question",
         "speaker_id": "Anne",
         "portrait_id": "Normal",
         "text": "Are you excited to finish school?",
-        "question": {
-            "hell yeah":
-            "not really"
-        }
-        "bg_color": "ffffff",
+        "questions": {
+            "hell yeah": 15,
+            "not really": 14
+        },
+        "bg_color": "e7eb70",
         "text_speed": 0.03,
-        "_index": 0
+        "_index": 13
     },
 
     {
@@ -168,10 +169,10 @@
         "speaker_id": "Anne",
         "portrait_id": "Normal",
         "text": "So many people we get to meet you just don't wanna let those relationships go to waste",
-        "next": ,
-        "bg_color": "ffffff",
+        "next": 40,
+        "bg_color": "e7eb70",
         "text_speed": 0.03,
-        "_index": 0
+        "_index": 14
     },
 
     {
@@ -179,10 +180,10 @@
         "speaker_id": "Anne",
         "portrait_id": "Normal",
         "text": "I know right I just wanna crochet little animals forever without ever touching an exam or piece of homework again.",
-        "next": ,
-        "bg_color": "ffffff",
+        "next": 16,
+        "bg_color": "e7eb70",
         "text_speed": 0.03,
-        "_index": 0
+        "_index": 15
     },
 
     {
@@ -190,10 +191,10 @@
         "speaker_id": "Anne",
         "portrait_id": "Normal",
         "text": "I will miss it a bit though.",
-        "next": ,
-        "bg_color": "ffffff",
+        "next": 40,
+        "bg_color": "e7eb70",
         "text_speed": 0.03,
-        "_index": 0
+        "_index": 16
     },
 
     {
@@ -201,10 +202,10 @@
         "speaker_id": "Anne",
         "portrait_id": "Normal",
         "text": "yeah I feel that",
-        "next": ,
-        "bg_color": "ffffff",
+        "next": 14,
+        "bg_color": "e7eb70",
         "text_speed": 0.03,
-        "_index": 0
+        "_index": 17
     }
 
 ]

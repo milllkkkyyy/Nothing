@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/happy_bird.ogg-c9c765044832307d8f666ea8bcc229f8.oggstr"
+
+[deps]
+
+source_file="res://Audio/SFX/happy_bird.ogg"
+dest_files=[ "res://.import/happy_bird.ogg-c9c765044832307d8f666ea8bcc229f8.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

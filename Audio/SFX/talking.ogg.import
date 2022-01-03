@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/talking.ogg-a026844f062d9992dd3500df10663c2f.oggstr"
+
+[deps]
+
+source_file="res://Audio/SFX/talking.ogg"
+dest_files=[ "res://.import/talking.ogg-a026844f062d9992dd3500df10663c2f.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

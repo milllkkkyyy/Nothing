@@ -6,9 +6,9 @@
         "text": "Yo what's poppin? Its Harry.",
         "questions": {
                 "Nothing much": 1,
-                "Talking to you": 2
+                "Talking to you": 4
         },
-        "bg_color": "ffffff",
+        "bg_color": "b37373",
         "text_speed": 0.03,
         "_index": 0
     },
@@ -22,7 +22,7 @@
                 "Ew": 2,
                 "For real": 4
         },
-        "bg_color": "ffffff",
+        "bg_color": "b37373",
         "text_speed": 0.03,
         "_index": 1
     },
@@ -30,13 +30,13 @@
     {
         "type": "question",
         "speaker_id": "Harry",
-        "portrait_id": "Mad",
+        "portrait_id": "Sad",
         "text": "A little femi-bitch we got here. I just play the role I got at birth little fiesty one.",
         "questions": {
                 "Gross": 3,
                 "Okay": 6
         },
-        "bg_color": "ffffff",
+        "bg_color": "b37373",
         "text_speed": 0.03,
         "_index": 2
     },
@@ -44,13 +44,13 @@
     {
         "type": "question",
         "speaker_id": "Harry",
-        "portrait_id": "Mad",
+        "portrait_id": "Sad",
         "text": "Whatever dick suck you will never be at my level. I'll be famous and you'll be an ugly little speck I stomp on.",
         "questions": {
                 "[stay quiet]": 21,
                 "Famous?": 12
         },
-        "bg_color": "ffffff",
+        "bg_color": "b37373",
         "text_speed": 0.03,
         "_index": 3
     },
@@ -58,10 +58,10 @@
     {
         "type": "dialogue",
         "speaker_id": "Harry",
-        "portrait_id": "Mad",
+        "portrait_id": "Normal",
         "text": "Ah I see someone with good tastes.",
         "next": 7,
-        "bg_color": "ffffff",
+        "bg_color": "b37373",
         "text_speed": 0.03,
         "_index": 4
     },
@@ -69,10 +69,10 @@
     {
         "type": "dialogue",
         "speaker_id": "Harry",
-        "portrait_id": "Mad",
+        "portrait_id": "Normal",
         "text": "I see we got ourselves a smart alike, yeah?",
         "next": 6,
-        "bg_color": "ffffff",
+        "bg_color": "b37373",
         "text_speed": 0.03,
         "_index": 5
     },
@@ -83,7 +83,7 @@
         "portrait_id": "Happy",
         "text": "Haha just playin' dog. you know we need more people like you. People who dont take shit personally, ya' feel?.",
         "next": 7,
-        "bg_color": "ffffff",
+        "bg_color": "b37373",
         "text_speed": 0.03,
         "_index": 6
     },
@@ -97,7 +97,7 @@
                 "Yeah who doesnt": 8,
                 "Not my cup of tea": 8
         },
-        "bg_color": "ffffff",
+        "bg_color": "b37373",
         "text_speed": 0.03,
         "_index": 7
     },
@@ -108,7 +108,7 @@
         "portrait_id": "Normal",
         "text": "You know what? I don't really care actually. Let me tell you about somethin' bigga' than you.",
         "next": 9,
-        "bg_color": "ffffff",
+        "bg_color": "b37373",
         "text_speed": 0.03,
         "_index": 8
     },
@@ -119,7 +119,7 @@
         "portrait_id": "Normal",
         "text": "let me tell you about this gig fam",
         "next": 10,
-        "bg_color": "ffffff",
+        "bg_color": "b37373",
         "text_speed": 0.03,
         "_index": 9
     },
@@ -133,7 +133,7 @@
             "Yes": 13,
             "No": 11
         },
-        "bg_color": "ffffff",
+        "bg_color": "b37373",
         "text_speed": 0.03,
         "_index": 10
     },
@@ -144,7 +144,7 @@
         "portrait_id": "Normal",
         "text": "What? you prolly live under a barn then. Or that trash white hispter music. Its alright, don't worry man I wont tell nobodoy.",
         "next": 12,
-        "bg_color": "ffffff",
+        "bg_color": "b37373",
         "text_speed": 0.03,
         "_index": 11
     },
@@ -155,7 +155,7 @@
         "portrait_id": "Normal",
         "text": "Im in 'DRINKING YOUR TEARS'. yeah I know you've heard of us don't worry mate.",
         "next": 14,
-        "bg_color": "ffffff",
+        "bg_color": "b37373",
         "text_speed": 0.03,
         "_index": 12
     },
@@ -163,10 +163,10 @@
     {
         "type": "dialogue",
         "speaker_id": "Harry",
-        "portrait_id": "Normal",
+        "portrait_id": "Happy",
         "text": "Fuck yeah mate, a fan! I am the lead guitarist, as you probably know.",
         "next": 14,
-        "bg_color": "ffffff",
+        "bg_color": "b37373",
         "text_speed": 0.03,
         "_index": 13
     },
@@ -174,13 +174,13 @@
     {
         "type": "question",
         "speaker_id": "Harry",
-        "portrait_id": "Normal",
+        "portrait_id": "Happy",
         "text": "Anways, We got this sick ass kickin' gig man. I swear to you itll blow your mind! I dont know if I even should tell you about it",
         "questions": {
                 "youre so annoying": 15,
                 "please continue": 16
         },
-        "bg_color": "ffffff",
+        "bg_color": "b37373",
         "text_speed": 0.03,
         "_index": 14
     },
@@ -192,7 +192,7 @@
         "portrait_id": "Normal",
         "text": "HAHAHA you're so funny mate really. I would love to grab your number after this. But lets continue then shall we.",
         "next": 17,
-        "bg_color": "ffffff",
+        "bg_color": "b37373",
         "text_speed": 0.03,
         "_index": 15
     },
@@ -200,10 +200,10 @@
     {
         "type": "dialogue",
         "speaker_id": "Harry",
-        "portrait_id": "Normal",
+        "portrait_id": "Happy",
         "text": "Dirty little begga huh we got here. Just playin' don't get your liberal dick up my ass.",
         "next": 17,
-        "bg_color": "ffffff",
+        "bg_color": "b37373",
         "text_speed": 0.03,
         "_index": 16
     },
@@ -211,10 +211,10 @@
     {
         "type": "dialogue",
         "speaker_id": "Harry",
-        "portrait_id": "Normal",
+        "portrait_id": "Happy",
         "text": "DRINKING YOUR TEARS is gonna play at the homecomming game for Nothing University!",
         "next": 18,
-        "bg_color": "ffffff",
+        "bg_color": "b37373",
         "text_speed": 0.03,
         "_index": 17
     },
@@ -222,10 +222,10 @@
     {
         "type": "dialogue",
         "speaker_id": "Harry",
-        "portrait_id": "Normal",
+        "portrait_id": "Happy",
         "text": "YOU BETTER BE READY FOR THIS PRESSURE! BECAUSE YOUR GONNA FEEL US ALL OVER YOUR BODYYYYYYYY",
         "next": 19,
-        "bg_color": "ffffff",
+        "bg_color": "b37373",
         "text_speed": 0.03,
         "_index": 18
     },
@@ -236,7 +236,7 @@
         "portrait_id": "Normal",
         "text": "[Harry chatches his breath with his head down]",
         "next": 20,
-        "bg_color": "ffffff",
+        "bg_color": "b37373",
         "text_speed": 0.03,
         "_index": 19
     },
@@ -247,7 +247,7 @@
         "portrait_id": "Normal",
         "text": "Anyways, remember when I am famous bitch heres a signed photo. See you never. [Harry gives you two middle fingers]",
         "next": 22,
-        "bg_color": "ffffff",
+        "bg_color": "b37373",
         "text_speed": 0.03,
         "_index": 20
     },
@@ -258,7 +258,7 @@
         "portrait_id": "Normal",
         "text": "[harry stands and pulls out his phone ignoring you until the time runs out.]",
         "next": 22,
-        "bg_color": "ffffff",
+        "bg_color": "b37373",
         "text_speed": 0.03,
         "_index": 21
     }

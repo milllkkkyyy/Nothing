@@ -4,10 +4,10 @@
         "type": "question",
         "speaker_id": "Harry",
         "portrait_id": "Normal",
-        "text": "Yo its fuck face",
+        "text": "Yo, it's fuck face.",
         "questions": {
-                "Oh Harry": 7,
-                "Hello": 1
+                "Oh, Harry!": 7,
+                "Hello.": 1
         },
         "bg_color": "b37373",
         "text_speed": 0.03,
@@ -17,10 +17,10 @@
     {
         "type": "question",
         "speaker_id": "Harry",
-        "portrait_id": "Whats poppin?",
+        "portrait_id": "What's poppin?",
         "text": "",
         "questions": {
-                "Hows the band": 9,
+                "How's the band.": 9,
                 "You still a piece of shit?": 2
         },
         "bg_color": "b37373",
@@ -43,7 +43,7 @@
         "type": "dialogue",
         "speaker_id": "Harry",
         "portrait_id": "Normal",
-        "text": "For real though I am really sorry if I caused you any pain.",
+        "text": "For real though, I am really sorry if I caused you any pain.",
         "next": 4,
         "bg_color": "b37373",
         "text_speed": 0.03,
@@ -56,7 +56,7 @@
         "portrait_id": "Normal",
         "text": "I shouldn't make your life any hard especially with this brutal shit we got going on.",
         "questions": {
-                "Thanks": 6,
+                "Thanks.": 6,
                 "Fuckface?": 5
         },
         "bg_color": "b37373",
@@ -92,8 +92,8 @@
         "portrait_id": "Happy",
         "text": "I remember how much I liked you.",
         "questions": {
-            "Hows the band": 9,
-            "You still a piece of shit": 2
+            "How's the band": 9,
+            "You're still a piece of shit.": 2
         },
         "bg_color": "b37373",
         "text_speed": 0.03,
@@ -115,7 +115,7 @@
         "type": "dialogue",
         "speaker_id": "Harry",
         "portrait_id": "Normal",
-        "text": "The band broke up. Yeah one of the members died. We didn't feel good replacing him.",
+        "text": "The band broke up. Yeah, one of the members died. We didn't feel good replacing him.",
         "next": 10,
         "bg_color": "b37373",
         "text_speed": 0.03,
@@ -127,7 +127,7 @@
         "portrait_id": "Normal",
         "text": "I retired my masterful guitar haha. I am just Harry now.",
         "questions": {
-                "You dont play?": 11,
+                "You don't play?": 11,
                 "What are you doing now?": 13
         },
         "bg_color": "b37373",
@@ -139,10 +139,10 @@
         "type": "question",
         "speaker_id": "Harry",
         "portrait_id": "Normal",
-        "text": "I strum from time to time but I am focusing on my studies",
+        "text": "I strum from time to time but I am focusing on my studies.",
         "questions": {
-            "Studying what": 13,
-            "Damn": 12
+            "Studying what?": 13,
+            "Damn.": 12
         },
         "bg_color": "b37373",
         "text_speed": 0.03,
@@ -153,7 +153,7 @@
         "type": "dialogue",
         "speaker_id": "Harry",
         "portrait_id": "Normal",
-        "text": "Yeah I made a complete flip",
+        "text": "Yeah, I made a complete flip.",
         "next": 13,
         "bg_color": "b37373",
         "text_speed": 0.03,
@@ -175,7 +175,7 @@
         "type": "dialogue",
         "speaker_id": "Harry",
         "portrait_id": "Normal",
-        "text": "Put my cockiness to a true test",
+        "text": "Put my cockiness to the true test.",
         "next": 15,
         "bg_color": "b37373",
         "text_speed": 0.03,
@@ -186,7 +186,7 @@
         "type": "dialogue",
         "speaker_id": "Harry",
         "portrait_id": "Happy",
-        "text": "I hope we can be friends and chill. I am really sorry about how I acted before",
+        "text": "I hope we can be friends and chill. I am really sorry about how I acted before...",
         "next": 16,
         "bg_color": "b37373",
         "text_speed": 0.03,

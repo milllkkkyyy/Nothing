@@ -3,10 +3,10 @@
         "type": "question",
         "speaker_id": "Anne",
         "portrait_id": "Normal",
-        "text": "hey.",
+        "text": "Hey.",
         "questions": {
-            "how are you doing": 2,
-            "hey again": 1
+            "How are you doing?": 2,
+            "Hey, again.": 1
         },
         "bg_color": "e7eb70",
         "text_speed": 0.03,
@@ -17,10 +17,10 @@
         "type": "question",
         "speaker_id": "Anne",
         "portrait_id": "Normal",
-        "text": "hey.",
+        "text": "Hey.",
         "questions": {
-                "how are you doing": 2,
-                "hows the animals": 6
+                "How are you doing?": 2,
+                "Hows the animals?": 6
         },
         "bg_color": "e7eb70",
         "text_speed": 0.03,
@@ -31,7 +31,7 @@
         "type": "dialogue",
         "speaker_id": "Anne",
         "portrait_id": "Normal",
-        "text": "fine.",
+        "text": "Fine.",
         "next": 3,
         "bg_color": "e7eb70",
         "text_speed": 0.03,
@@ -42,9 +42,9 @@
         "type": "question",
         "speaker_id": "Anne",
         "portrait_id": "Normal",
-        "text": "thanks for asking",
+        "text": "Thanks for asking.",
         "questions": {
-            "Hows the animals": 6,
+            "Hows the animals?": 6,
             "Are you sure?": 4
         },
         "bg_color": "e7eb70",
@@ -67,10 +67,10 @@
         "type": "question",
         "speaker_id": "Anne",
         "portrait_id": "Normal",
-        "text": "Not Really",
+        "text": "Not Really.",
         "questions": {
-                "whats wrong": 8,
-                "hows the animals": 6
+                "whats wrong?": 8,
+                "Hows the animals.": 6
         },
         "bg_color": "e7eb70",
         "text_speed": 0.03,
@@ -83,8 +83,8 @@
         "portrait_id": "Normal",
         "text": "They're good. I think.",
         "questions": {
-                "you think?": 7,
-                "that is good": 9
+                "You think?": 7,
+                "That is good.": 9
         },
         "bg_color": "e7eb70",
         "text_speed": 0.03,
@@ -95,7 +95,7 @@
         "type": "dialogue",
         "speaker_id": "Anne",
         "portrait_id": "Normal",
-        "text": "I do think",
+        "text": "I do think.",
         "next": 10,
         "bg_color": "e7eb70",
         "text_speed": 0.03,
@@ -150,7 +150,7 @@
         "type": "dialogue",
         "speaker_id": "Anne",
         "portrait_id": "Sad",
-        "text": "I can't even say what happened",
+        "text": "I can't even say what happened.",
         "next": 13,
         "bg_color": "e7eb70",
         "text_speed": 0.03,
@@ -161,7 +161,7 @@
         "type": "dialogue",
         "speaker_id": "Anne",
         "portrait_id": "Sad",
-        "text": "it happened to fast.",
+        "text": "It happened to fast.",
         "next": 14,
         "bg_color": "e7eb70",
         "text_speed": 0.03,
@@ -172,7 +172,7 @@
         "type": "dialogue",
         "speaker_id": "Anne",
         "portrait_id": "Sad",
-        "text": "I didn't have any money to take care of the dog or even my house",
+        "text": "I didn't have any money to take care of the dog or even my house.",
         "next": 15,
         "bg_color": "e7eb70",
         "text_speed": 0.03,
@@ -183,7 +183,7 @@
         "type": "dialogue",
         "speaker_id": "Anne",
         "portrait_id": "Sad",
-        "text": "I am homeless. My animals are in the shelter",
+        "text": "I am homeless. My animals are in the shelter.",
         "next": 16,
         "bg_color": "e7eb70",
         "text_speed": 0.03,
@@ -194,7 +194,7 @@
         "type": "dialogue",
         "speaker_id": "Anne",
         "portrait_id": "Sad",
-        "text": "FUCK THIS",
+        "text": "FUCK THIS!",
         "next": 17,
         "bg_color": "e7eb70",
         "text_speed": 0.03,
@@ -205,7 +205,7 @@
         "type": "dialogue",
         "speaker_id": "Anne",
         "portrait_id": "Sad",
-        "text": "Like why am I alive?",
+        "text": "Like, why am I alive?",
         "next": 18,
         "bg_color": "e7eb70",
         "text_speed": 0.03,
@@ -216,10 +216,10 @@
         "type": "question",
         "speaker_id": "Anne",
         "portrait_id": "Normal",
-        "text": "Just finish me off you know.",
+        "text": "Just finish me off, you know.",
         "questions": {
-            "I am so sorry": 27,
-            "I can help": 19
+            "I am so sorry.": 27,
+            "I can help.": 19
         },
         "bg_color": "e7eb70",
         "text_speed": 0.03,
@@ -232,8 +232,8 @@
         "portrait_id": "Normal",
         "text": "With what?",
         "questions": {
-                "A place to say": 20,
-                "Nevermind": 21
+                "A place to stay.": 20,
+                "Nevermind.": 21
         },
         "bg_color": "e7eb70",
         "text_speed": 0.03,
@@ -268,8 +268,8 @@
         "portrait_id": "Normal",
         "text": "For real?",
         "questions": {
-                "Yes": 23,
-                "No": 34
+                "Yes.": 23,
+                "No.": 34
         },
         "bg_color": "e7eb70",
         "text_speed": 0.03,
@@ -280,10 +280,10 @@
         "type": "question",
         "speaker_id": "Anne",
         "portrait_id": "Happy",
-        "text": "Are you lying",
+        "text": "Are you lying.",
         "questions": {
-                "Yes": 34,
-                "No": 24
+                "Yes.": 34,
+                "No.": 24
         },
         "bg_color": "e7eb70",
         "text_speed": 0.03,
@@ -294,7 +294,7 @@
         "type": "dialogue",
         "speaker_id": "Anne",
         "portrait_id": "Normal",
-        "text": "[She looks at you heisitent]",
+        "text": "[She looks at you hesitant.]",
         "next": 25,
         "bg_color": "e7eb70",
         "text_speed": 0.03,
@@ -305,7 +305,7 @@
         "type": "dialogue",
         "speaker_id": "Anne",
         "portrait_id": "Happy",
-        "text": "I would be down",
+        "text": "I would be down.",
         "next": 26,
         "bg_color": "e7eb70",
         "text_speed": 0.03,
@@ -349,7 +349,7 @@
         "type": "dialogue",
         "speaker_id": "Anne",
         "portrait_id": "Sad",
-        "text": "WHY ARE YOU SORRY",
+        "text": "WHY ARE YOU SORRY!",
         "next": 30,
         "bg_color": "e7eb70",
         "text_speed": 0.03,
@@ -360,7 +360,7 @@
         "type": "dialogue",
         "speaker_id": "Anne",
         "portrait_id": "Normal",
-        "text": "[she stops talking and shakes]",
+        "text": "[She stops talking and shakes.]",
         "next": 31,
         "bg_color": "e7eb70",
         "text_speed": 0.03,
@@ -371,7 +371,7 @@
         "type": "dialogue",
         "speaker_id": "Anne",
         "portrait_id": "Sad",
-        "text": "I am sorry",
+        "text": "I am sorry.",
         "next": 32,
         "bg_color": "e7eb70",
         "text_speed": 0.03,
@@ -393,7 +393,7 @@
         "type": "dialogue",
         "speaker_id": "Anne",
         "portrait_id": "Sad",
-        "text": "[she cries and runs off out of the room leaving you]",
+        "text": "[She cries and runs off out of the room leaving you.]",
         "next": 40,
         "bg_color": "e7eb70",
         "text_speed": 0.03,
@@ -404,7 +404,7 @@
         "type": "dialogue",
         "speaker_id": "Anne",
         "portrait_id": "Sad",
-        "text": "[she looks at you fustrated and leaves the room.]",
+        "text": "[She looks at you frustrated and leaves the room.]",
         "next": 40,
         "bg_color": "e7eb70",
         "text_speed": 0.03,

@@ -3,11 +3,11 @@
         "type": "question",
         "speaker_id": "Sam",
         "portrait_id": "Neutral",
-        "text": "Hey what is up",
+        "text": "Hey what is up?",
         "text_speed": 0.03,
         "questions": {
                 "What is up my dawg!": {"next": "1"},
-                "Ew dont talk to me": {"next": "2"}
+                "Ew, don't talk to me.": {"next": "2"}
         }
     },
 
@@ -15,7 +15,7 @@
         "type": "dialogue",
         "speaker_id": "Sam",
         "portrait_id": "Neutral",
-        "text": "nothing much my friend",
+        "text": "nothing much, my friend.",
         "text_speed": 0.03,
         "next": "3"
     },
@@ -24,7 +24,7 @@
         "type": "dialogue",
         "speaker_id": "Sam",
         "portrait_id": "Neutral",
-        "text": "okay bitch",
+        "text": "okay, bitch.",
         "text_speed": 0.03,
         "next": "3"
     }

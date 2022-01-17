@@ -160,7 +160,7 @@
         "portrait_id": "Sad",
         "text": "Man, it's fucked.",
         "questions": {
-            "Vontinue.": 14,
+            "Continue.": 14,
             "oh my god, stop.": 15
         },
         "bg_color": "6d976e",

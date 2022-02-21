@@ -1,0 +1,330 @@
+[
+
+    {
+
+        "type": "question",
+        "speaker_id": "Larry",
+        "portrait_id": "Normal",
+        "text": "Grrrrrr, I go by Larry, but you can call me alpha.",
+        "bg_color":"ffffff",
+        "question": {
+            "Are you okay?": 10,
+            "Bark": 1
+        },
+        "text_speed": 0.03,
+        "_index": 0
+
+    },
+
+    {
+
+        "type": "question",
+        "speaker_id": "Larry",
+        "portrait_id": "Normal",
+        "text": "ROUGH ROUGH",
+        "bg_color":"ffffff",
+        "question": {
+            "GRRR": 3,
+            "[Burst In laughter]": 2
+        },
+        "text_speed": 0.03,
+        "_index": 1
+
+    },
+
+    {
+
+        "type": "dialogue",
+        "speaker_id": "Larry",
+        "portrait_id": "Normal",
+        "text": "You are a beta. Disgusting.",
+        "bg_color":"ffffff",
+        "text_speed": 0.03,
+        "next": 28,
+        "_index": 2
+
+    },
+
+    {
+
+        "type": "question",
+        "speaker_id": "Larry",
+        "portrait_id": "Normal",
+        "text": "BARK",
+        "bg_color":"ffffff",
+        "question": {
+            "GRRR": 5,
+            "ROUGH ROUGH": 4
+        },
+        "text_speed": 0.03,
+        "_index": 3
+
+    },
+
+
+    {
+
+        "type": "question",
+        "speaker_id": "Larry",
+        "portrait_id": "Normal",
+        "text": "BARK",
+        "bg_color":"ffffff",
+        "question": {
+            "GRRR": 6,
+            "BARK": 6
+        },
+        "text_speed": 0.03,
+        "_index": 4
+
+    },
+
+    {
+
+        "type": "question",
+        "speaker_id": "Larry",
+        "portrait_id": "Normal",
+        "text": "GRRRRR",
+        "bg_color":"ffffff",
+        "question": {
+            "BARK": 6,
+            "ROUGH ROUGH": 6
+        },
+        "text_speed": 0.03,
+        "_index": 5
+
+    },
+
+    {
+
+        "type": "dialogue",
+        "speaker_id": "Larry",
+        "portrait_id": "Normal",
+        "text": "You better be careful using language like that.",
+        "bg_color":"ffffff",
+        "text_speed": 0.03,
+        "next": 7,
+        "_index": 6
+
+    },
+
+    {
+
+        "type": "dialogue",
+        "speaker_id": "Larry",
+        "portrait_id": "Normal",
+        "text": "I think I found my mate.",
+        "bg_color":"ffffff",
+        "text_speed": 0.03,
+        "next": 8,
+        "_index": 7
+
+    },
+
+    {
+
+        "type": "dialogue",
+        "speaker_id": "Larry",
+        "portrait_id": "Normal",
+        "text": "AWOOOOOOOOOOOOOOOO",
+        "bg_color":"ffffff",
+        "text_speed": 0.03,
+        "next": 9,
+        "_index": 8
+
+    },
+
+    {
+
+        "type": "dialogue",
+        "speaker_id": "Larry",
+        "portrait_id": "Normal",
+        "text": "I will think about you.",
+        "bg_color":"ffffff",
+        "text_speed": 0.03,
+        "next": 34,
+        "_index": 9
+
+    },
+
+    {
+
+        "type": "question",
+        "speaker_id": "Larry",
+        "portrait_id": "Normal",
+        "text": "I am in my alpha mode.",
+        "bg_color":"ffffff",
+        "question": {
+            "Alpha?": 12,
+            "Can we not?": 11
+        },
+        "text_speed": 0.03,
+        "_index": 10
+
+    },
+
+    {
+
+        "type": "question",
+        "speaker_id": "Larry",
+        "portrait_id": "Normal",
+        "text": "Shut Up. Don't speak unless told to",
+        "bg_color":"ffffff",
+        "question": {
+            "No.": 34,
+            "[Stay silent]": 14
+        },
+        "text_speed": 0.03,
+        "_index": 11
+
+    },
+
+    {
+
+        "type": "dialogue",
+        "speaker_id": "Larry",
+        "portrait_id": "Normal",
+        "text": "Of course you don't know what Alpha means, Beta",
+        "bg_color":"ffffff",
+        "text_speed": 0.03,
+        "next": 13,
+        "_index": 12
+
+    },
+
+    {
+
+        "type": "dialogue",
+        "speaker_id": "Larry",
+        "portrait_id": "Normal",
+        "text": "it means I am better than you.",
+        "bg_color":"ffffff",
+        "text_speed": 0.03,
+        "next": 14,
+        "_index": 13
+
+    },
+
+    {
+
+        "type": "dialogue",
+        "speaker_id": "Larry",
+        "portrait_id": "Normal",
+        "text": "God is everyone here stupid and ugly.",
+        "bg_color":"ffffff",
+        "text_speed": 0.03,
+        "next": 15,
+        "_index": 14
+
+    },
+
+    {
+
+        "type": "question",
+        "speaker_id": "Larry",
+        "portrait_id": "Normal",
+        "text": "Where is my little furry bitch.",
+        "question": {
+            "I can be that": 20,
+            "um?": 16
+        },
+        "bg_color":"ffffff",
+        "text_speed": 0.03,
+        "_index": 15
+
+    },
+
+    {
+
+        "type": "dialogue",
+        "speaker_id": "Larry",
+        "portrait_id": "Normal",
+        "text": "UM NOTHING",
+        "bg_color":"ffffff",
+        "text_speed": 0.03,
+        "next": 17,
+        "_index": 16
+
+    },
+
+    {
+
+        "type": "dialogue",
+        "speaker_id": "Larry",
+        "portrait_id": "Normal",
+        "text": "DONT QUESTION ALPHA",
+        "bg_color":"ffffff",
+        "text_speed": 0.03,
+        "next": 18,
+        "_index": 17
+
+    },
+
+    {
+
+        "type": "dialogue",
+        "speaker_id": "Larry",
+        "portrait_id": "Normal",
+        "text": "GRRRRRRR",
+        "bg_color":"ffffff",
+        "text_speed": 0.03,
+        "next": 19,
+        "_index": 18
+
+    },
+
+    {
+
+        "type": "dialogue",
+        "speaker_id": "Larry",
+        "portrait_id": "Normal",
+        "text": "Im done with you. You tire me beta cuck.",
+        "bg_color":"ffffff",
+        "text_speed": 0.03,
+        "next": 34,
+        "_index": 19
+
+    },
+
+    {
+
+        "type": "dialogue",
+        "speaker_id": "Larry",
+        "portrait_id": "Normal",
+        "text": "You wanna be my little bitch?",
+        "bg_color":"ffffff",
+        "text_speed": 0.03,
+        "next": 21,
+        "_index": 20
+
+    },
+
+    {
+
+        "type": "dialogue",
+        "speaker_id": "Larry",
+        "portrait_id": "Normal",
+        "text": "My sexy omega?",
+        "bg_color":"ffffff",
+        "text_speed": 0.03,
+        "next": 22,
+        "_index": 21
+
+    },
+
+    {
+
+        "type": "question",
+        "speaker_id": "Larry",
+        "portrait_id": "Normal",
+        "text": "Where is my little furry bitch.",
+        "question": {
+            "Omg I am gonna throw up": 34,
+            "Yes Alpha": 34
+        },
+        "bg_color":"ffffff",
+        "text_speed": 0.03,
+        "_index": 22
+
+    }
+
+]

@@ -1,0 +1,375 @@
+[
+    {
+        "type": "question",
+        "speaker_id": "Felix",
+        "portrait_id": "Normal",
+        "text": "Um hey, names Felix.",
+        "questions": {
+                "Hey": 1,
+                "You a lumberjack?": 2
+        },
+        "bg_color": "ffffff",
+        "text_speed": 0.03,
+        "_index": 0
+    },
+
+    {
+        "type": "question",
+        "speaker_id": "Felix",
+        "portrait_id": "Normal",
+        "text": "you enjoy the outdoors?",
+        "questions": {
+                "Yes": 3,
+                "No": 4
+        },
+        "bg_color":"ffffff",
+        "text_speed": 0.03,
+        "_index": 1
+    },
+
+    {
+        "type": "dialogue",
+        "speaker_id": "Felix",
+        "portrait_id": "Normal",
+        "text": "Um no I just enjoy flannals actually",
+        "command": "unlocked_questions",
+        "bg_color":"ffffff",
+        "next": 1,
+        "text_speed": 0.03,
+        "_index": 2
+    },
+
+    {
+        "type": "question",
+        "speaker_id": "Felix",
+        "portrait_id": "Happy",
+        "text": "Nothing like breathing in acutally air?",
+        "questions": {
+                "What do you do outside": 13,
+                "for real": 29
+        },
+        "bg_color":"ffffff",
+        "text_speed": 0.03,
+        "_index": 3
+    },
+
+    {
+        "type": "question",
+        "speaker_id": "Felix",
+        "portrait_id": "Sad",
+        "text": "Why not?",
+        "questions": {
+                "Not into it": 8,
+                "It's gross": 5
+        },
+        "bg_color":"ffffff",
+        "text_speed": 0.03,
+        "_index": 4
+    },
+
+    {
+        "type": "question",
+        "speaker_id": "Felix",
+        "portrait_id": "Happy",
+        "text": "Gross? Are you kidding me? Grow up what is this 5th grade?",
+        "questions": {
+                "Shut up": 6,
+                "Haha": 7
+        },
+        "bg_color":"ffffff",
+        "text_speed": 0.03,
+        "_index": 5
+    },
+
+    {
+        "type": "dialogue",
+        "speaker_id": "Felix",
+        "portrait_id": "Sad",
+        "text": "Okay buster. You asked for it.",
+        "bg_color":"ffffff",
+        "next": 34,
+        "text_speed": 0.03,
+        "_index": 6
+    },
+
+    {
+        "type": "question",
+        "speaker_id": "Felix",
+        "portrait_id": "Happy",
+        "text": "Haha thanks my side gig is being a comedian.",
+        "questions": {
+                "What do you do?": 13,
+                "Where do you wanna live?": 9
+        },
+        "bg_color":"ffffff",
+        "text_speed": 0.03,
+        "_index": 7
+    },
+
+    {
+        "type": "question",
+        "speaker_id": "Felix",
+        "portrait_id": "Normal",
+        "text": "Thats fair. Thats why places like New York exits.",
+        "questions": {
+                "What do you do?": 13,
+                "Where do you wanna live?": 9
+        },
+        "bg_color":"ffffff",
+        "text_speed": 0.03,
+        "_index": 8
+    },
+
+    {
+        "type": "dialogue",
+        "speaker_id": "Felix",
+        "portrait_id": "Normal",
+        "text": "Probably Seattle or Portland,",
+        "bg_color":"ffffff",
+        "text_speed": 0.03,
+        "next": 9,
+        "_index": 9
+    },
+    
+    {
+        "type": "dialogue",
+        "speaker_id": "Felix",
+        "portrait_id": "Normal",
+        "text": "In my dreams, I would love to live in Europe.",
+        "bg_color": "ffffff",
+        "text_speed": 0.03,
+        "next": 11,
+        "_index": 10
+        
+    },
+
+    {
+        "type": "dialogue",
+        "speaker_id": "Felix",
+        "portrait_id": "Normal",
+        "text": "Big fan of harry potter actually. One of my dreams is to go visit Europe one day. ",
+        "questions": {
+                "Give me a random fact?": 22,
+                "You care that much?": 34
+        },      
+        "bg_color":"ffffff",
+        "text_speed": 0.03,
+        "next": 12,
+        "_index": 11
+    },
+
+    {
+        "type": "dialogue",
+        "speaker_id": "Felix",
+        "portrait_id": "Normal",
+        "text": "Platform Nine and Three-Quarters is real. After the movie they created a fake little easter egg.",
+        "bg_color":"ffffff",
+        "next": 22,
+        "text_speed": 0.03,
+        "_index": 12
+    },
+
+    {
+        "type": "dialogue",
+        "speaker_id": "Felix",
+        "portrait_id": "Normal",
+        "text": "I'm a lumberjack",
+        "unlocked_questions":
+        {
+            "Wait you lied to me?": 14,
+            "How is that buisness?": 17
+        },
+        "questions":
+        {
+            "How is that business?": 17,
+            "You look the part": 19
+        },
+        "bg_color":"ffffff",
+        "text_speed": 0.03,
+        "_index": 13
+    },
+    
+    {
+        "type": "dialogue",
+        "speaker_id": "Felix",
+        "portrait_id": "Normal",
+        "text": "Stop judging a book by its cover man.",
+        "questions":
+        {
+            "What?": 34,
+            "Yeah my bad": 15
+        },
+        "bg_color":"ffffff",
+        "text_speed": 0.03,
+        "_index": 14
+    },
+    
+    {
+        "type": "dialogue",
+        "speaker_id": "Felix",
+        "portrait_id": "Normal",
+        "text": "I like to have talks with people instead of judging them by their looks.",
+        "bg_color":"ffffff",
+        "text_speed": 0.03,
+        "next": 16,
+        "_index": 15
+    },
+    
+    {
+        "type": "dialogue",
+        "speaker_id": "Felix",
+        "portrait_id": "Normal",
+        "text": "I could've been a doctor for all you know.",
+        "bg_color":"ffffff",
+        "text_speed": 0.03,
+        "next": 34,
+        "_index": 16
+    },
+    
+    {
+        "type": "dialogue",
+        "speaker_id": "Felix",
+        "portrait_id": "Sad",
+        "text": "Its really good actually. Feel like I am a bit over worked.",
+        "bg_color":"ffffff",
+        "text_speed": 0.03,
+        "next": 18,
+        "_index": 17
+    },
+    
+    {
+        "type": "dialogue",
+        "speaker_id": "Felix",
+        "portrait_id": "Normal",
+        "text": "But hey thats capatalism for you. Youre not meant to be happy just comfortable.",
+        "bg_color":"ffffff",
+        "text_speed": 0.03,
+        "next": 24,
+        "_index": 18
+    },
+    
+    {
+        "type": "dialogue",
+        "speaker_id": "Felix",
+        "portrait_id": "Normal",
+        "text": "Thanks, applying to lumberjack weekly as a model.",
+        "bg_color":"ffffff",
+        "text_speed": 0.03,
+        "next": 20,
+        "_index": 19
+    },
+    
+    {
+        "type": "dialogue",
+        "speaker_id": "Felix",
+        "portrait_id": "Normal",
+        "text": "I would actually love to be a model.",
+        "bg_color":"ffffff",
+        "text_speed": 0.03,
+        "next": 21,
+        "_index": 20
+    },
+    
+    {
+        "type": "dialogue",
+        "speaker_id": "Felix",
+        "portrait_id": "Normal",
+        "text": "I fucking hate working.",
+        "bg_color":"ffffff",
+        "next": 23,
+        "text_speed": 0.03,
+        "_index": 21
+    },
+    
+    {
+        "type": "dialogue",
+        "speaker_id": "Felix",
+        "portrait_id": "Normal",
+        "text": "I love shit like that. Bringing the fake world into the real world.",
+        "bg_color":"ffffff",
+        "text_speed": 0.03,
+        "next": 27,
+        "_index": 22
+    },
+    
+    {
+        "type": "dialogue",
+        "speaker_id": "Felix",
+        "portrait_id": "Normal",
+        "text": "Our world is too boring. I am glad people try to make it more exciting",
+        "bg_color":"ffffff",
+        "text_speed": 0.03,
+        "next": 27,
+        "_index": 23
+    },
+    
+    {
+        "type": "dialogue",
+        "speaker_id": "Felix",
+        "portrait_id": "Normal",
+        "text": "Work is so lame.",
+        "next": 25,
+        "bg_color":"ffffff",
+        "text_speed": 0.03,
+        "_index": 24
+    },
+    
+    {
+        "type": "dialogue",
+        "speaker_id": "Felix",
+        "portrait_id": "Normal",
+        "text": "Why can't I just be rich.",
+        "bg_color":"ffffff",
+        "text_speed": 0.03,
+        "next": 26,
+        "_index": 25
+    },
+    
+    {
+        "type": "dialogue",
+        "speaker_id": "Felix",
+        "portrait_id": "Normal",
+        "text": "I work forty hours a week and have school man. its not easy.",
+        "bg_color":"ffffff",
+        "next": 27,
+        "text_speed": 0.03,
+        "_index": 26
+    },
+    
+    {
+        "type": "dialogue",
+        "speaker_id": "Felix",
+        "portrait_id": "Normal",
+        "text": "I wish I could just be a wizard or some shit.",
+        "bg_color":"ffffff",
+        "text_speed": 0.03,
+        "next": 28,
+        "_index": 27
+    },
+    
+    {
+        "type": "dialogue",
+        "speaker_id": "Felix",
+        "portrait_id": "Normal",
+        "text": "Just get away from all this bullshit.",
+        "bg_color":"ffffff",
+        "next": 34,
+        "text_speed": 0.03,
+        "_index": 28
+    },
+    
+    {
+        "type": "question",
+        "speaker_id": "Felix",
+        "portrait_id": "Normal",
+        "text": "The world has some real pretty places and all it takes is a walk to get there",
+        "questions": {
+            "What do you do?": 13,
+            "Where do you wanna live?": 9
+        },
+        "bg_color":"ffffff",
+        "text_speed": 0.03,
+        "_index": 29
+    }
+    
+]

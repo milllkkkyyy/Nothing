@@ -1,0 +1,210 @@
+[
+    {
+        "type": "question",
+        "speaker_id": "Larry",
+        "portrait_id": "Normal",
+        "text": "Still the same Beta as before?",
+        "question": {
+            "Please, God no.": 1,
+            "How is my Alpha?": 5
+        },
+        "bg_color":"c5f5a5",
+        "text_speed": 0.03,
+        "_index": 0
+    },
+
+    {
+
+        "type": "dialogue",
+        "speaker_id": "Larry",
+        "portrait_id": "Normal",
+        "text": "Such a Beta thing to say.",
+        "bg_color":"c5f5a5",
+        "text_speed": 0.03,
+        "next": 2,
+        "_index": 1
+    },
+
+    {
+
+        "type": "dialogue",
+        "speaker_id": "Larry",
+        "portrait_id": "Normal",
+        "text": "The pandemic made more Betas like you.",
+        "bg_color":"c5f5a5",
+        "text_speed": 0.03,
+        "next": 3,
+        "_index": 2
+    },
+
+    {
+
+        "type": "dialogue",
+        "speaker_id": "Larry",
+        "portrait_id": "Normal",
+        "text": "Get the fuck over yourself.",
+        "bg_color":"c5f5a5",
+        "text_speed": 0.03,
+        "next": 4,
+        "_index": 3
+    },
+
+    {
+
+        "type": "dialogue",
+        "speaker_id": "Larry",
+        "portrait_id": "Normal",
+        "text": "[Larry spits at your feet]",
+        "bg_color":"c5f5a5",
+        "text_speed": 0.03,
+        "next": 28,
+        "_index": 4
+    },
+
+    {
+
+        "type": "dialogue",
+        "speaker_id": "Larry",
+        "portrait_id": "Normal",
+        "text": "Good. Really good.",
+        "bg_color":"c5f5a5",
+        "text_speed": 0.03,
+        "next": 6,
+        "_index": 5
+    },
+
+    {
+
+        "type": "dialogue",
+        "speaker_id": "Larry",
+        "portrait_id": "Normal",
+        "text": "I feel amazing.",
+        "bg_color":"c5f5a5",
+        "text_speed": 0.03,
+        "next": 7,
+        "_index": 6
+    },
+
+    {
+        "type": "question",
+        "speaker_id": "Larry",
+        "portrait_id": "Normal",
+        "text": "The pandemic made me stronger.",
+        "question": {
+            "How?": 10,
+            "What?": 8
+        },
+        "bg_color":"c5f5a5",
+        "text_speed": 0.03,
+        "_index": 7
+    },
+
+    {
+
+        "type": "dialogue",
+        "speaker_id": "Larry",
+        "portrait_id": "Normal",
+        "text": "Peasants.",
+        "bg_color":"c5f5a5",
+        "text_speed": 0.03,
+        "next": 9,
+        "_index": 8
+    },
+
+    {
+
+        "type": "dialogue",
+        "speaker_id": "Larry",
+        "portrait_id": "Normal",
+        "text": "You people choose to be ignorant.",
+        "bg_color":"c5f5a5",
+        "text_speed": 0.03,
+        "next": 10,
+        "_index": 9
+    },
+
+    {
+
+        "type": "dialogue",
+        "speaker_id": "Larry",
+        "portrait_id": "Normal",
+        "text": "I went to parties every week.",
+        "bg_color":"c5f5a5",
+        "text_speed": 0.03,
+        "next": 11,
+        "_index": 10
+    },
+
+    {
+
+        "type": "dialogue",
+        "speaker_id": "Larry",
+        "portrait_id": "Normal",
+        "text": "I got the virus many times.",
+        "bg_color":"c5f5a5",
+        "text_speed": 0.03,
+        "next": 12,
+        "_index": 11
+    },
+
+    {
+
+        "type": "dialogue",
+        "speaker_id": "Larry",
+        "portrait_id": "Normal",
+        "text": "Natural immunity baby.",
+        "bg_color":"c5f5a5",
+        "text_speed": 0.03,
+        "next": 13,
+        "_index": 12
+    },
+
+    {
+
+        "type": "dialogue",
+        "speaker_id": "Larry",
+        "portrait_id": "Normal",
+        "text": "Anyways.",
+        "bg_color":"c5f5a5",
+        "text_speed": 0.03,
+        "next": 14,
+        "_index": 13
+    },
+
+    {
+
+        "type": "dialogue",
+        "speaker_id": "Larry",
+        "portrait_id": "Normal",
+        "text": "I'm done with you.",
+        "bg_color":"c5f5a5",
+        "text_speed": 0.03,
+        "next": 15,
+        "_index": 14
+    },
+
+    {
+
+        "type": "dialogue",
+        "speaker_id": "Larry",
+        "portrait_id": "Normal",
+        "text": "I need to find my new pack member.",
+        "bg_color":"c5f5a5",
+        "text_speed": 0.03,
+        "next": 16,
+        "_index": 15
+    },
+
+    {
+
+        "type": "dialogue",
+        "speaker_id": "Larry",
+        "portrait_id": "Normal",
+        "text": "GRRR!",
+        "bg_color":"c5f5a5",
+        "text_speed": 0.03,
+        "next": 28,
+        "_index": 16
+    }
+
+]

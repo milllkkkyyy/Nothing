@@ -3,9 +3,9 @@
         "type": "question",
         "speaker_id": "Felix",
         "portrait_id": "Normal",
-        "text": "Um hey, names Felix.",
+        "text": "Um Hey, names Felix.",
         "questions": {
-                "Hey": 1,
+                "Hey.": 1,
                 "You a lumberjack?": 2
         },
         "bg_color": "ffffff",
@@ -17,10 +17,10 @@
         "type": "question",
         "speaker_id": "Felix",
         "portrait_id": "Normal",
-        "text": "you enjoy the outdoors?",
+        "text": "You enjoy the outdoors?",
         "questions": {
-                "Yes": 3,
-                "No": 4
+                "Yes.": 3,
+                "No.": 4
         },
         "bg_color":"ffffff",
         "text_speed": 0.03,
@@ -31,7 +31,7 @@
         "type": "dialogue",
         "speaker_id": "Felix",
         "portrait_id": "Normal",
-        "text": "Um no I just enjoy flannals actually",
+        "text": "Um, no I just enjoy flannels actually.",
         "command": "unlocked_questions",
         "bg_color":"ffffff",
         "next": 1,
@@ -43,10 +43,10 @@
         "type": "question",
         "speaker_id": "Felix",
         "portrait_id": "Happy",
-        "text": "Nothing like breathing in acutally air?",
+        "text": "Nothing like breathing in actual air.",
         "questions": {
-                "What do you do outside": 13,
-                "for real": 29
+                "What do you do outside?": 13,
+                "For real.": 29
         },
         "bg_color":"ffffff",
         "text_speed": 0.03,
@@ -59,8 +59,8 @@
         "portrait_id": "Sad",
         "text": "Why not?",
         "questions": {
-                "Not into it": 8,
-                "It's gross": 5
+                "Not into it.": 8,
+                "It's gross.": 5
         },
         "bg_color":"ffffff",
         "text_speed": 0.03,
@@ -71,10 +71,10 @@
         "type": "question",
         "speaker_id": "Felix",
         "portrait_id": "Happy",
-        "text": "Gross? Are you kidding me? Grow up what is this 5th grade?",
+        "text": "Gross? Are you kidding me? Grow up. What is this, 5th grade?",
         "questions": {
-                "Shut up": 6,
-                "Haha": 7
+                "Shut up.": 6,
+                "Haha.": 7
         },
         "bg_color":"ffffff",
         "text_speed": 0.03,
@@ -96,7 +96,7 @@
         "type": "question",
         "speaker_id": "Felix",
         "portrait_id": "Happy",
-        "text": "Haha thanks my side gig is being a comedian.",
+        "text": "Haha, thanks. My side gig is being a comedian.",
         "questions": {
                 "What do you do?": 13,
                 "Where do you wanna live?": 9
@@ -110,7 +110,7 @@
         "type": "question",
         "speaker_id": "Felix",
         "portrait_id": "Normal",
-        "text": "Thats fair. Thats why places like New York exits.",
+        "text": "That's fair. That's why places like New York exists.",
         "questions": {
                 "What do you do?": 13,
                 "Where do you wanna live?": 9
@@ -124,7 +124,7 @@
         "type": "dialogue",
         "speaker_id": "Felix",
         "portrait_id": "Normal",
-        "text": "Probably Seattle or Portland,",
+        "text": "Probably Seattle or Portland.",
         "bg_color":"ffffff",
         "text_speed": 0.03,
         "next": 9,
@@ -147,7 +147,7 @@
         "type": "dialogue",
         "speaker_id": "Felix",
         "portrait_id": "Normal",
-        "text": "Big fan of harry potter actually. One of my dreams is to go visit Europe one day. ",
+        "text": "Big fan of Harry Potter actually. One of my dreams is to go visit Europe one day.",
         "questions": {
                 "Give me a random fact?": 22,
                 "You care that much?": 34
@@ -173,16 +173,16 @@
         "type": "dialogue",
         "speaker_id": "Felix",
         "portrait_id": "Normal",
-        "text": "I'm a lumberjack",
+        "text": "I'm a lumberjack.",
         "unlocked_questions":
         {
-            "Wait you lied to me?": 14,
-            "How is that buisness?": 17
+            "Wait, you lied to me?": 14,
+            "How is that business?": 17
         },
         "questions":
         {
             "How is that business?": 17,
-            "You look the part": 19
+            "You look the part.": 19
         },
         "bg_color":"ffffff",
         "text_speed": 0.03,
@@ -197,7 +197,7 @@
         "questions":
         {
             "What?": 34,
-            "Yeah my bad": 15
+            "Yeah, my bad.": 15
         },
         "bg_color":"ffffff",
         "text_speed": 0.03,
@@ -230,7 +230,7 @@
         "type": "dialogue",
         "speaker_id": "Felix",
         "portrait_id": "Sad",
-        "text": "Its really good actually. Feel like I am a bit over worked.",
+        "text": "It's really good actually. Feel like I am a bit overworked.",
         "bg_color":"ffffff",
         "text_speed": 0.03,
         "next": 18,
@@ -241,7 +241,7 @@
         "type": "dialogue",
         "speaker_id": "Felix",
         "portrait_id": "Normal",
-        "text": "But hey thats capatalism for you. Youre not meant to be happy just comfortable.",
+        "text": "But hey that's capitalism for you. You're not meant to be happy, just comfortable.",
         "bg_color":"ffffff",
         "text_speed": 0.03,
         "next": 24,
@@ -252,7 +252,7 @@
         "type": "dialogue",
         "speaker_id": "Felix",
         "portrait_id": "Normal",
-        "text": "Thanks, applying to lumberjack weekly as a model.",
+        "text": "Thanks, I'm applying to lumberjack weekly as a model.",
         "bg_color":"ffffff",
         "text_speed": 0.03,
         "next": 20,
@@ -296,7 +296,7 @@
         "type": "dialogue",
         "speaker_id": "Felix",
         "portrait_id": "Normal",
-        "text": "Our world is too boring. I am glad people try to make it more exciting",
+        "text": "Our world is too boring. I am glad people try to make it more exciting.",
         "bg_color":"ffffff",
         "text_speed": 0.03,
         "next": 27,
@@ -329,7 +329,7 @@
         "type": "dialogue",
         "speaker_id": "Felix",
         "portrait_id": "Normal",
-        "text": "I work forty hours a week and have school man. its not easy.",
+        "text": "I work forty hours a week and have school man. It's not easy.",
         "bg_color":"ffffff",
         "next": 27,
         "text_speed": 0.03,
@@ -362,7 +362,7 @@
         "type": "question",
         "speaker_id": "Felix",
         "portrait_id": "Normal",
-        "text": "The world has some real pretty places and all it takes is a walk to get there",
+        "text": "The world has some real pretty places and all it takes is a walk to get there.",
         "questions": {
             "What do you do?": 13,
             "Where do you wanna live?": 9

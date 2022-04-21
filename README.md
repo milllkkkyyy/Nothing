@@ -1,27 +1,129 @@
-# Nothing
-A school project
+# Modding
 
-Every asset is handmade in Microsoft Paint and then adjusted in Adobe Photoshop. 
-I use photoshop to scale and make objects transparent. The goal of this game is to finish it by the end of
-december. The project itself isn't very complicated as I have the Godot Addon Dialogic which handles everything
-I need it to do. 
+## What You Need
 
-Why am I doing this?
+I am assuming with this you have a starting level of knowlege of how coding works. You can use Notepad to do much of the coding for the mods. I would recommend Visual Studio Code, as it makes error checking and the entire process 100x easier.
 
-Its not only for school. I just want to make something I can smile at and be proud of. 
-I have made a game in the past that I was happy with but not really proud of. However, truthfully, I also want other people to
-fell like they can just hop into things and just make somthing without limitaions of their skill. I suck at a lot of things
-and I feel like there are people who are amazing at the things I can't do, 
-but because they're scared and for whatever reason they come up with,they don't do it.
-Im using MS paint a couple hours of my free time every now and then to make something I can be proud of. I'm
-hoping others can follow my footsteps, make somthing better than I could even imagine and be proud of it. 
+## Creating A New Character
 
-I am also doing this to require myslef to make readible code that can be edited upon or understood. I and probably many
-other programmers have faced an issue were they arent able to read code sent by a friend and cannot help. While godots language helps
-a lot with readibility, I want a project that I could share my code to someone who knows very little and they can understand it
-as much as their prior knowledge about computer sceience allows them to. 
+To create a character you will need dialogs which will be formatted it into a .json file. This is used so the game is able to process the conversation.
 
-These are video updates I am doing for myself:
+Like said above you will need two files for each character:\
+[NAME]PreDialog.json\
+[NAME]PostDialog.json 
+
+in the dialog jsons itself here are two types of speech. One is dialogue:
+```
+[
+    {
+        "type": "dialogue",
+        "speaker_id": "Dave",
+        "portrait_id": "Happy",
+        "text": "Welcome to the reunion for the speed dating event.",
+        "next": 1,
+        "bg_color": "ffffff",
+        "text_speed": 0.03,
+        "_index": 0
+    }, 
+    {
+        "type": "dialogue",
+        "speaker_id": "Dave",
+        "portrait_id": "Normal",
+        "text": "HELLO!.",
+        "next": 2,
+        "bg_color": "ffffff",
+        "text_speed": 0.03,
+        "_index": 1
+    },
+]
+```
+Questions are very similar:
+```
+[
+  {
+        "type": "question",
+        "speaker_id": "Anne",
+        "portrait_id": "Normal",
+        "text": "hey.",
+        "questions": {
+            "how are you doing": 2,
+            "hey again": 1
+        },
+        "bg_color": "e7eb70",
+        "text_speed": 0.03,
+        "_index": 0
+  },
+  {
+        "type": "dialogue",
+        "speaker_id": "Anne",
+        "portrait_id": "Happy",
+        "text": "Sup.",
+        "next": 3,
+        "bg_color": "e7eb70",
+        "text_speed": 0.03,
+        "_index": 1
+    }, 
+    {
+        "type": "dialogue",
+        "speaker_id": "Anee",
+        "portrait_id": "Normal",
+        "text": "I am alright thanks.",
+        "next": 3,
+        "bg_color": "e7eb70",
+        "text_speed": 0.03,
+        "_index": 2
+    },
+]
+```
+### Key Explaination
+
+"type" can either be "dialogue" or "question"\
+"speaker_id" is your characters name capatalized the same way the pictures are.\
+"portrait_id" is the facial expression they will have. Each one of these you do you have to draw a seprate image for each of them.\
+Name the images in the format [NAME][PORTRAIT_ID].png\
+The image size limit is 380 x 658\
+"text" is the text the character will say\
+"next" is the index of the next dialog (ONLY FOR DIALOGUE)\
+"questions" holds a dictionary with format "Button text" : next index (ONLY FOR QUESTIONS)\
+"bg_color" hex color code for the characters background\
+"text_speed" words per second\
+"\_index" parameter for keeping track of the index
+
+### Importing Character / Other usefull tools
+
+Once you have a post-dialog and pre-dialog filled out, and images corresponding to each emotion, we need to import the character.
+
+To import, open a text editor. Notepad will do, and type: 
+
+```
+func add_id():
+  return [ "NAME OF CHARACTER" + "OTHER NAME OF CHARACTER" + "ETC." ]
+```
+Save as a .gd file and drag that file and your occompanying files into the mods folder. That should be all you need. If you have done everything correctly you should be able to play your character now / see your mod in the corner of the game. 
+
+If you do not include the .gd file your character will not show up.
+
+#### Other functions
+
+```
+func remove_id():
+  return [ "NAME OF CHARACTER" + "OTHER NAME OF CHARACTER" + "ETC." ]
+```
+This function is useful for removing characters from a mod / removing the original cast and putting in a new one.
+
+```
+func num_of_dialogs():
+  return int
+```
+This function can be used to set the number of dialogs. If there is more dialogs than possible dialogs the game will crash.
+
+Put these functions in a .gd script and in the mods folder and you can see your mod in the corner of the game.
+
+# Play with mods
+
+Create a folder called "mods" right next to your .exe of NOTHING and then import all of the mods into the folder. Mods cannot be seperated by folders.
+
+# Visual Updates
 
 NOTHING 0.0.01 TESTING DIALOGIC, BASIC SETUP
 https://youtu.be/Y7ldXWJRlR4

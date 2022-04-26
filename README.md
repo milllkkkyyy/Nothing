@@ -8,7 +8,7 @@ I am assuming with this you have a starting level of knowlege of how coding work
 
 To create a character you will need dialogs which will be formatted it into a .json file. This is used so the game is able to process the conversation.
 
-Like said above you will need two files for each character:\
+You will need two files for each character:\
 [NAME]PreDialog.json\
 [NAME]PostDialog.json 
 

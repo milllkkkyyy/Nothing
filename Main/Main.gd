@@ -8,8 +8,10 @@ const dialog_path = "res://Dialog/Dialog.tscn"
 const titleCard_path = "res://Extra/TitleCard.tscn"
 const storyBoard_path = "res://Extra/StoryCard.tscn" 
 
-# the list of available dialogs
-const dialogs = ["Lucy", "Harry", "Anne", "Book" ]
+# the list of built in available dialogs
+const dialogs = ["Lucy", "Harry", "Anne", "Book", 
+"Francis", "Larry", "Ben", "Felix"]
+
 var dialogs_pre = []
 var dialogs_post = []
 
@@ -17,10 +19,12 @@ var daves_sayings = [
 	"NEXT GIRLIES!",
 	"LETS GO NEXT!",
 	"NOT YOU CATCHING FEELINGS!",
-	"WRAP IT UP FELLAS!"
+	"WRAP IT UP FELLAS!",
+	"NEXT!",
+	"DONT THINK HES THE ONE HONEY!",
+	"MILLONS OF FISH IN THE SEA!",
+	"COME ON WRAP IT UP!"
 ]
-
-var amount_of_dialogs = 4
 
 func _ready():
 	AudioController.stop_sfx()
@@ -37,12 +41,18 @@ func _ready():
 	AudioController.fade_in_audio(AudioController.sfx)
 	
 	randomize()
-	var temp = dialogs
-	for _i in range(amount_of_dialogs):
+	var temp = dialogs + ModLoader.mod_dialogs
+	
+	for character in ModLoader.remove:
+		if character in temp:
+			temp.remove(character)
+		
+	for _i in range(ModLoader.num_of_characters):
 		var index = randi() % len(temp)
 		var item = temp[index]
 		temp.remove(index)
 		dialogs_pre.append(item)
+		
 	yield(intro, "isFinished")
 	intro.queue_free()
 	
@@ -57,7 +67,11 @@ func _ready():
 func pre_game():
 	while dialogs_pre:
 		var top = dialogs_pre.pop_back()
-		var path = "res://Dialogs/" + top + "PreDialog.json"
+		var path
+		if top in dialogs:
+			path = "res://Dialogs/" + top + "PreDialog.json"
+		else:
+			path = ModLoader.path + "/" + top + "PreDialog.json"
 		var dialog = present_dialog(path)
 		dialogs_post.append(top)
 		yield(dialog, "isFinished")
@@ -104,7 +118,11 @@ func intermission():
 func post_game():
 	while dialogs_post:
 		var top = dialogs_post.pop_back()
-		var path = "res://Dialogs/" + top + "PostDialog.json"
+		var path
+		if top in dialogs:
+			path = "res://Dialogs/" + top + "PostDialog.json"
+		else:
+			path = ModLoader.path + "/" + top + "PostDialog.json"
 		var dialog = present_dialog(path)
 		yield(dialog, "isFinished")
 		dialog.queue_free()

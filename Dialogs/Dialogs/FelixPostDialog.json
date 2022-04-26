@@ -1,0 +1,536 @@
+[
+    {
+        "type": "question",
+        "speaker_id": "Felix",
+        "portrait_id": "Normal",
+        "text": "Sup.",
+        "bg_color":"fe4949",
+        "questions": {
+            "How have you been?": 16,
+            "Hey, still here?": 1
+        },
+        "text_speed": 0.03,
+        "_index": 0
+    },
+
+    {
+        "type": "dialogue",
+        "speaker_id": "Felix",
+        "portrait_id": "Normal",
+        "text": "Yeah, the pandemic really limited travel.",
+        "bg_color":"fe4949",
+        "next": 2,
+        "text_speed": 0.03,
+        "_index": 1
+    },
+
+    {
+        "type": "dialogue",
+        "speaker_id": "Felix",
+        "portrait_id": "Normal",
+        "text": "Ain't nowhere to go but sit in your house.",
+        "bg_color":"fe4949",
+        "next": 3,
+        "text_speed": 0.03,
+        "_index": 2
+    },
+
+    {
+        "type": "dialogue",
+        "speaker_id": "Felix",
+        "portrait_id": "Happy",
+        "text": "Didn't really bother me.",
+        "bg_color":"fe4949",
+        "next": 4,
+        "text_speed": 0.03,
+        "_index": 3
+    },
+
+    {
+        "type": "dialogue",
+        "speaker_id": "Felix",
+        "portrait_id": "Normal",
+        "text": "Been doing that shit my whole life.",
+        "bg_color":"fe4949",
+        "next": 5,
+        "text_speed": 0.03,
+        "_index": 4
+    },
+
+    {
+        "type": "dialogue",
+        "speaker_id": "Felix",
+        "portrait_id": "Normal",
+        "text": "Ever since screens and shit have been around.",
+        "bg_color":"fe4949",
+        "next": 6,
+        "text_speed": 0.03,
+        "_index": 5
+    },
+
+    {
+        "type": "dialogue",
+        "speaker_id": "Felix",
+        "portrait_id": "Normal",
+        "text": "Not saying its bad but-",
+        "bg_color":"fe4949",
+        "next": 7,
+        "text_speed": 0.03,
+        "_index": 6
+    },
+
+    {
+        "type": "dialogue",
+        "speaker_id": "Felix",
+        "portrait_id": "Happy",
+        "text": "Nevermind. What a fucking tangent huh.",
+        "bg_color":"fe4949",
+        "next": 8,
+        "text_speed": 0.03,
+        "_index": 7 
+    },
+
+    {
+        "type": "dialogue",
+        "speaker_id": "Felix",
+        "portrait_id": "Normal",
+        "text": "Uh...",
+        "bg_color":"fe4949",
+        "next": 9,
+        "text_speed": 0.03,
+        "_index": 8
+    },
+
+    {
+        "type": "question",
+        "speaker_id": "Felix",
+        "portrait_id": "Happy",
+        "text": "I traveled/live in Alaska currently.",
+        "questions": {
+            "What are you doing here?": 10,
+            "Thats sick. Why?": 15
+        },
+        "bg_color":"fe4949",
+        "text_speed": 0.03,
+        "_index": 9
+    },
+
+    {
+        "type": "dialogue",
+        "speaker_id": "Felix",
+        "portrait_id": "Normal",
+        "text": "Fucking around.",
+        "bg_color":"fe4949",
+        "next": 11,
+        "text_speed": 0.03,
+        "_index": 10
+    },
+
+    {
+        "type": "dialogue",
+        "speaker_id": "Felix",
+        "portrait_id": "Happy",
+        "text": "Came to see you actually.",
+        "bg_color":"fe4949",
+        "next": 12,
+        "text_speed": 0.03,
+        "_index": 11
+    },
+
+    {
+        "type": "dialogue",
+        "speaker_id": "Felix",
+        "portrait_id": "Normal",
+        "text": "Just fucking kidding.",
+        "bg_color":"fe4949",
+        "next": 13,
+        "text_speed": 0.03,
+        "_index": 12
+    },
+
+    {
+        "type": "dialogue",
+        "speaker_id": "Felix",
+        "portrait_id": "Normal",
+        "text": "I dont know.",
+        "bg_color":"fe4949",
+        "next": 14,
+        "text_speed": 0.03,
+        "_index": 13
+    },
+
+    {
+        "type": "dialogue",
+        "speaker_id": "Felix",
+        "portrait_id": "Happy",
+        "text": "I wanna reminiscence on how the world used to be.",
+        "bg_color":"fe4949",
+        "next": 55,
+        "text_speed": 0.03,
+        "_index": 14
+    },
+
+    {
+        "type": "dialogue",
+        "speaker_id": "Felix",
+        "portrait_id": "Normal",
+        "text": "For work.",
+        "bg_color":"fe4949",
+        "next": 41,
+        "text_speed": 0.03,
+        "_index": 15
+    },
+
+    {
+        "type": "question",
+        "speaker_id": "Felix",
+        "portrait_id": "Happy",
+        "text": "Good, been going through a lot.",
+        "bg_color":"fe4949",
+        "questions": {
+            "What's up?": 18,
+            "Don't care.": 17
+        },
+        "text_speed": 0.03,
+        "_index": 16
+    },
+
+        
+    {
+        "type": "dialogue",
+        "speaker_id": "Felix",
+        "portrait_id": "Sad",
+        "text": "Okay, dick.",
+        "bg_color":"fe4949",
+        "text_speed": 0.03,
+        "next": 55,
+        "_index": 17
+    },
+
+        
+    {
+        "type": "dialogue",
+        "speaker_id": "Felix",
+        "portrait_id": "Normal",
+        "text": "Nothing much, just been working.",
+        "bg_color":"fe4949",
+        "text_speed": 0.03,
+        "next": 19,
+        "_index": 18
+    },
+
+    {
+        "type": "question",
+        "speaker_id": "Felix",
+        "portrait_id": "Normal",
+        "text": "The workplace I was tellin' you about got a bit more exciting.",
+        "questions": {
+            "Really?": 26,
+            "Can I tell you a joke?": 20
+        },
+        "bg_color":"fe4949",
+        "text_speed": 0.03,
+        "_index": 19
+    },
+
+    {
+        "type": "dialogue",
+        "speaker_id": "Felix",
+        "portrait_id": "Sad",
+        "text": "I guess...",
+        "bg_color":"fe4949",
+        "next": 21,
+        "text_speed": 0.03,
+        "_index": 20
+    },
+
+    {
+        "type": "dialogue",
+        "speaker_id": "Felix",
+        "portrait_id": "Normal",
+        "text": "Let me hear it.",
+        "bg_color":"fe4949",
+        "next": 22,
+        "text_speed": 0.03,
+        "_index": 21
+    },
+
+    {
+        "type": "dialogue",
+        "speaker_id": "Felix",
+        "portrait_id": "Sad",
+        "text": "[You tell a joke that blows.]",
+        "bg_color":"fe4949",
+        "next": 23,
+        "text_speed": 0.03,
+        "_index": 22
+    },
+
+    {
+        "type": "dialogue",
+        "speaker_id": "Felix",
+        "portrait_id": "Sad",
+        "text": "[Good job.]",
+        "bg_color":"fe4949",
+        "next": 24,
+        "text_speed": 0.03,
+        "_index": 23
+    },    
+
+    {
+        "type": "dialogue",
+        "speaker_id": "Felix",
+        "portrait_id": "Normal",
+        "text": "Uh...",
+        "bg_color":"fe4949",
+        "next": 25,
+        "text_speed": 0.03,
+        "_index": 24
+    },
+
+    {
+        "type": "dialogue",
+        "speaker_id": "Felix",
+        "portrait_id": "Sad",
+        "text": "Haha.",
+        "bg_color":"fe4949",
+        "next": 55,
+        "text_speed": 0.03,
+        "_index": 25
+    },
+
+    {
+        "type": "dialogue",
+        "speaker_id": "Felix",
+        "portrait_id": "Normal",
+        "text": "Me and the other workers decided to strike.",
+        "bg_color":"fe4949",
+        "next": 27,
+        "text_speed": 0.03,
+        "_index": 26
+    },
+
+    {
+        "type": "dialogue",
+        "speaker_id": "Felix",
+        "portrait_id": "Normal",
+        "text": "We were out there for about a week.",
+        "bg_color":"fe4949",
+        "next": 28,
+        "text_speed": 0.03,
+        "_index": 27
+    },
+
+    {
+        "type": "dialogue",
+        "speaker_id": "Felix",
+        "portrait_id": "Normal",
+        "text": "Shit was rough apparently.",
+        "bg_color":"fe4949",
+        "next": 29,
+        "text_speed": 0.03,
+        "_index": 28
+    },
+
+    {
+        "type": "dialogue",
+        "speaker_id": "Felix",
+        "portrait_id": "Happy",
+        "text": "Don't remember much of the nights.",
+        "bg_color":"fe4949",
+        "next": 30,
+        "text_speed": 0.03,
+        "_index": 29
+    },
+
+    {
+        "type": "dialogue",
+        "speaker_id": "Felix",
+        "portrait_id": "Normal",
+        "text": "The sober boys told us after about how rough things got.",
+        "bg_color":"fe4949",
+        "next": 31,
+        "text_speed": 0.03,
+        "_index": 20
+    },
+
+    {
+        "type": "dialogue",
+        "speaker_id": "Felix",
+        "portrait_id": "Happy",
+        "text": "Now the sober boys didn't enjoy it, but holy hell did I.",
+        "bg_color":"fe4949",
+        "next": 32,
+        "text_speed": 0.03,
+        "_index": 31
+    },
+
+    {
+        "type": "dialogue",
+        "speaker_id": "Felix",
+        "portrait_id": "Normal",
+        "text": "I got drunk every fuckin' night.",
+        "bg_color":"fe4949",
+        "next": 33,
+        "text_speed": 0.03,
+        "_index": 32
+    },
+
+    {
+        "type": "dialogue",
+        "speaker_id": "Felix",
+        "portrait_id": "Happy",
+        "text": "Off my rockers man.",
+        "bg_color":"fe4949",
+        "next": 34,
+        "text_speed": 0.03,
+        "_index": 33
+    },
+
+    {
+        "type": "dialogue",
+        "speaker_id": "Felix",
+        "portrait_id": "Normal",
+        "text": "Fallin' and shit.",
+        "bg_color":"fe4949",
+        "next": 35,
+        "text_speed": 0.03,
+        "_index": 34
+    },
+
+    {
+        "type": "dialogue",
+        "speaker_id": "Felix",
+        "portrait_id": "Sad",
+        "text": "We all got fired and forcibly removed.",
+        "bg_color":"fe4949",
+        "next": 36,
+        "text_speed": 0.03,
+        "_index": 35
+    },
+
+    {
+        "type": "question",
+        "speaker_id": "Felix",
+        "portrait_id": "Happy",
+        "text": "It was still a good time.",
+        "questions": {
+            "Did you get another job?": 41,
+            "Damn, fuck your boss.": 37
+        },
+        "bg_color":"fe4949",
+        "text_speed": 0.03,
+        "_index": 36
+    },
+
+    {
+        "type": "dialogue",
+        "speaker_id": "Felix",
+        "portrait_id": "Normal",
+        "text": "Yeah man, I said it before and I will say it again.",
+        "bg_color":"fe4949",
+        "next": 38,
+        "text_speed": 0.03,
+        "_index": 37
+    },
+    
+    {
+        "type": "dialogue",
+        "speaker_id": "Felix",
+        "portrait_id": "Sad",
+        "text": "Fuck capitalism.",
+        "bg_color":"fe4949",
+        "next": 39,
+        "text_speed": 0.03,
+        "_index": 38
+    },
+
+    {
+        "type": "dialogue",
+        "speaker_id": "Felix",
+        "portrait_id": "Normal",
+        "text": "The pandemic made people want to breed that shit man.",
+        "bg_color":"fe4949",
+        "next": 40,
+        "text_speed": 0.03,
+        "_index": 39
+    },
+
+    {
+        "type": "dialogue",
+        "speaker_id": "Felix",
+        "portrait_id": "Happy",
+        "text": "Snorting the fucking ash of Nixon I swear.",
+        "bg_color":"fe4949",
+        "next": 55,
+        "text_speed": 0.03,
+        "_index": 40
+    },
+
+    {
+        "type": "dialogue",
+        "speaker_id": "Felix",
+        "portrait_id": "Normal",
+        "text": "Yeah, ended up getting my dream job.",
+        "bg_color":"fe4949",
+        "next": 42,
+        "text_speed": 0.03,
+        "_index": 41
+    },
+
+    {
+        "type": "dialogue",
+        "speaker_id": "Felix",
+        "portrait_id": "Normal",
+        "text": "I work as a Nation Forest Guard.",
+        "bg_color":"fe4949",
+        "next": 43,
+        "text_speed": 0.03,
+        "_index": 42
+    },
+
+    {
+        "type": "dialogue",
+        "speaker_id": "Felix",
+        "portrait_id": "Happy",
+        "text": "Shits the most fun I have ever have.",
+        "bg_color":"fe4949",
+        "next": 44,
+        "text_speed": 0.03,
+        "_index": 43
+    },
+
+    {
+        "type": "dialogue",
+        "speaker_id": "Felix",
+        "portrait_id": "Normal",
+        "text": "Doesn't feel real.",
+        "bg_color":"fe4949",
+        "next": 45,
+        "text_speed": 0.03,
+        "_index": 44
+    },
+
+    {
+        "type": "dialogue",
+        "speaker_id": "Felix",
+        "portrait_id": "Happy",
+        "text": "Fucking gorgeous man.",
+        "bg_color":"fe4949",
+        "next": 46,
+        "text_speed": 0.03,
+        "_index": 45
+    },
+
+    {
+        "type": "dialogue",
+        "speaker_id": "Felix",
+        "portrait_id": "Normal",
+        "text": "You gotta come out there and visit me sometime.",
+        "bg_color":"fe4949",
+        "next": 55,
+        "text_speed": 0.03,
+        "_index": 46
+    }
+
+]

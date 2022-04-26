@@ -1,0 +1,195 @@
+[
+    {
+        "type": "response"
+        "speaker_id": "Lucy"
+        "portrait_id": "Happy"
+        "text": "Hey! The names Lucy! How do you do?"
+        "responses": {
+                "I'm doing greate!": {"next": 1}
+                "I'm alright.": {"next": 2}
+        }
+        "_index": 0
+    }
+    
+    {
+        
+        "type": "dialogue"
+        "speaker_id": "Lucy"
+        "portrait_id": "Happy"
+        "text": "Thats really good to hear!"
+        "next": 6
+        "_index": 1
+    }
+    
+    {
+        "type": "dialogue"
+        "speaker_id": "Lucy"
+        "portrait_id": "Sad"
+        "text": "Aww poor thing."
+        "next": 3
+        "_index": 2
+    }
+    {
+        "type": "dialogue"
+        "speaker_id": "Lucy"
+        "portrait_id": "happy"
+        "text": "You know what makes me feel better. I look straight in the mirros and smile"
+        "next": 4
+        "_index": 3
+    }
+    {
+        "type": "response"
+        "speaker_id": "Lucy"
+        "portrait_id": "Normal"
+        "text": "Its scientifically proven to imporve your mental health"
+        "responses": {
+                "Okay...I'll try that out": {"next": 5}
+                "Really?" {"next": 5}
+        }
+        "_index": 4
+    }
+    {
+        "type": "dialogue"
+        "speaker_id": "Lucy"
+        "portrait_id": "Happy"
+        "text": "I can tell i am not good at satire. I was joking haha. I hear about that study so much it makes me want to punch a mirror."
+        "next": 6
+        "_index": 5
+    }
+    {
+        "type": "dialogue"
+        "speaker_id": "Lucy"
+        "portrait_id": "Normal"
+        "text": "I'm just gonna throw a fast ball at this conversation because you seem interesting."
+        "next": 7
+        "_index": 6
+    }
+    {
+        "type": "response"
+        "speaker_id": "Lucy"
+        "portrait_id":
+        "text": "Do you believe in spirituality or religion?"
+        "responses": {
+            "Whats the difference?": 8
+            "No":
+        }
+        "_index": 7
+    }
+    {
+        "type": "dialogue"
+        "speaker_id": "Lucy"
+        "portrait_id": "Happy"
+        "text": "Spiriturality is focusing on invidualstic practices of a belief"
+        "next": 9
+        "_index": 8
+    }
+    {
+        "type": "dialogue"
+        "speaker_id": "Lucy"
+        "portrait_id": "Normal"
+        "text": "Like inner peace and finding your purpose."
+        "next": 10
+        "_index": 9
+    }
+    {
+        "type": "dialogue"
+        "speaker_id": "Lucy"
+        "portrait_id": "Normal"
+        "text": "Religion is  more organized and beliefs are shared to a large group of people"
+        "next": 11
+        "_index": 10
+    }
+    {
+        "type": "response"
+        "speaker_id": "Lucy"
+        "portrait_id":
+        "text": "These can both innertwine of course"
+        "responses": {
+                "Oh I dont wanna talk about religion": {"next": }
+                "Who do you believe in?": {"next": }
+        }
+        "_index": 11
+    }
+    {
+        "type": "dialogue"
+        "speaker_id": "Lucy"
+        "portrait_id": "Sarcastic"
+        "text": "Hm? A little rube to ask a girls spirituality on the first date"
+        "_index": 12
+    }
+    {
+        "type": "dialogue"
+        "speaker_id": "Lucy"
+        "portrait_id": "Happy"
+        "text": "But if you're so inclined I do not actually believe in a religion."
+        "_index": 13
+    }
+    {
+        "type": "dialogue"
+        "speaker_id": "Lucy"
+        "portrait_id": "Normal"
+        "text": "I love learning about the experiences of different people who subscirbe to different beliefs"
+        "_index": 14
+    }
+    {
+        "type": "dialogue"
+        "speaker_id": "Lucy"
+        "portrait_id": "Happy"
+        "text": "I enjoy talking about it to someone though so thanks for curving my desire to mansplain"
+        "_index": 15
+    }
+    {
+        "type": "dialogue"
+        "speaker_id": "Lucy"
+        "portrait_id": "Angry"
+        "text": "My favorite things I have discovered though is definetly in Buddhism"
+        "_index": 16
+    }
+    {
+        "type": "dialogue"
+        "speaker_id": "Lucy"
+        "portrait_id": "Angry"
+        "text": "Hm? A little rube to ask a girls spirituality on the first date"
+        "_index": 17
+    }
+    {
+        "type": "dialogue"
+        "speaker_id": "Lucy"
+        "portrait_id": "Angry"
+        "text": "Hm? A little rube to ask a girls spirituality on the first date"
+        "_index": 18
+    }
+    {
+        "type": "dialogue"
+        "speaker_id": "Lucy"
+        "portrait_id": "Angry"
+        "text": "Hm? A little rube to ask a girls spirituality on the first date"
+        "_index": 19
+    }
+    {
+        "type": "dialogue"
+        "speaker_id": "Lucy"
+        "portrait_id": "Angry"
+        "text": "Hm? A little rube to ask a girls spirituality on the first date"
+        "_index": 20
+    }
+    {
+        "type": "dialogue"
+        "speaker_id": "Lucy"
+        "portrait_id": "Angry"
+        "text": "Hm? A little rube to ask a girls spirituality on the first date"
+        "_index": 21
+    }
+    {
+        "type": "dialogue"
+        "speaker_id": "Lucy"
+        "portrait_id": "Angry"
+        "text": "Hm? A little rube to ask a girls spirituality on the first date"
+        "_index": 22
+    }
+    
+    
+    
+    
+    
+]

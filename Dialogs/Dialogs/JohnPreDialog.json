@@ -1,0 +1,40 @@
+[
+    {
+
+        "type": "question",
+        "speaker_id": "John",
+        "portrait_id": "Normal",
+        "text": "Whats up crankin' hotty, I'm John",
+        "questions": {
+            "Hey baby": ,
+            "Woah foward much": 
+        },
+        "bg_color":"c5f5a5",
+        "text_speed": 0.03,
+        "next": 1,
+        "_index": 0
+    },
+
+    {
+        "type": "dialogue",
+        "speaker_id": "Harry",
+        "portrait_id": "Normal",
+        "text": "Ah, I see someone with good tastes.",
+        "next": 7,
+        "bg_color": "b37373",
+        "text_speed": 0.03,
+        "_index": 4
+    },
+
+    {
+        "type": "dialogue",
+        "speaker_id": "Harry",
+        "portrait_id": "Normal",
+        "text": "Ah, I see someone with good tastes.",
+        "next": 7,
+        "bg_color": "b37373",
+        "text_speed": 0.03,
+        "_index": 4
+    },
+
+]

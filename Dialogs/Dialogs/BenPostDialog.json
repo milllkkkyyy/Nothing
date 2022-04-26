@@ -1,0 +1,351 @@
+[
+    {
+        "type": "dialogue",
+        "speaker_id": "Ben",
+        "portrait_id": "Normal",
+        "text": "Damn.",
+        "bg_color":"dcb68c",
+        "next": 1,
+        "text_speed": 0.03,
+        "_index": 0
+    },
+
+    {
+        "type": "question",
+        "speaker_id": "Ben",
+        "portrait_id": "Sad",
+        "text": "It happened.",
+        "questions": {
+            "For real.": 14,
+            "How are you?": 2
+        },
+        "bg_color":"dcb68c",
+        "next": 21,
+        "text_speed": 0.03,
+        "_index": 1
+    },
+
+    {
+        "type": "dialogue",
+        "speaker_id": "Ben",
+        "portrait_id": "Happy",
+        "text": "Alright.",
+        "bg_color":"dcb68c",
+        "next": 3,
+        "text_speed": 0.03,
+        "_index": 2
+    },
+
+    {
+        "type": "dialogue",
+        "speaker_id": "Ben",
+        "portrait_id": "Normal",
+        "text": "I didn't get the worst of the pandemic.",
+        "bg_color":"dcb68c",
+        "next": 21,
+        "text_speed": 0.03,
+        "_index": 3
+    },
+
+    {
+        "type": "dialogue",
+        "speaker_id": "Ben",
+        "portrait_id": "Normal",
+        "text": "Mostly stayed in my dorm.",
+        "bg_color":"dcb68c",
+        "next": 5,
+        "text_speed": 0.03,
+        "_index": 4
+    },
+
+    {
+        "type": "question",
+        "speaker_id": "Ben",
+        "portrait_id": "Happy",
+        "text": "How about you?",
+        "questions": {
+            "I partied hard.": 11,
+            "Same.": 6
+        },
+        "bg_color":"dcb68c",
+        "text_speed": 0.03,
+        "_index": 5
+    },
+
+    {
+        "type": "dialogue",
+        "speaker_id": "Ben",
+        "portrait_id": "Normal",
+        "text": "Yeah.",
+        "bg_color":"dcb68c",
+        "next": 7,
+        "text_speed": 0.03,
+        "_index": 6
+    },
+
+    {
+        "type": "questions",
+        "speaker_id": "Ben",
+        "portrait_id": "Sad",
+        "text": "Sucks to think like 1 whole year of my life is gone.",
+        "questions":{
+            "Don't think like that.": 8,
+            "Yeah, I can feel that.":  55
+        },
+        "bg_color":"dcb68c",
+        "text_speed": 0.03,
+        "_index": 7
+    },
+
+    {
+        "type": "dialogue",
+        "speaker_id": "Ben",
+        "portrait_id": "Normal",
+        "text": "Yeah, fair.",
+        "bg_color":"dcb68c",
+        "next": 9,
+        "text_speed": 0.03,
+        "_index": 8
+    },
+
+    {
+        "type": "dialogue",
+        "speaker_id": "Ben",
+        "portrait_id": "Normal",
+        "text": "I learned some good hobbies.",
+        "bg_color":"dcb68c",
+        "next": 10,
+        "text_speed": 0.03,
+        "_index": 9
+    },
+
+    {
+        "type": "dialogue",
+        "speaker_id": "Ben",
+        "portrait_id": "Normal",
+        "text": "Can't make everyone sad, especially during these times.",
+        "bg_color":"dcb68c",
+        "next": 55,
+        "text_speed": 0.03,
+        "_index": 10
+    },
+
+    {
+        "type": "dialogue",
+        "speaker_id": "Ben",
+        "portrait_id": "Normal",
+        "text": "Uh...",
+        "bg_color":"dcb68c",
+        "next": 12,
+        "text_speed": 0.03,
+        "_index": 11
+    },
+
+    {
+        "type": "dialogue",
+        "speaker_id": "Ben",
+        "portrait_id": "Normal",
+        "text": "Okay.",
+        "bg_color":"dcb68c",
+        "next": 13,
+        "text_speed": 0.03,
+        "_index": 12
+    },
+
+    {
+        "type": "dialogue",
+        "speaker_id": "Ben",
+        "portrait_id": "Sad",
+        "text": "I am too tired for that.",
+        "bg_color":"dcb68c",
+        "next": 55,
+        "text_speed": 0.03,
+        "_index": 13
+    },
+
+    {
+        "type": "dialogue",
+        "speaker_id": "Ben",
+        "portrait_id": "Normal",
+        "text": "Yeah, doesn't make me feel good.",
+        "bg_color":"dcb68c",
+        "next": 15,
+        "text_speed": 0.03,
+        "_index": 14
+    },
+
+    {
+        "type": "dialogue",
+        "speaker_id": "Ben",
+        "portrait_id": "Happy",
+        "text": "I wish I was like a telepath.",
+        "bg_color":"dcb68c",
+        "next": 16,
+        "text_speed": 0.03,
+        "_index": 15
+    },
+
+    {
+        "type": "question",
+        "speaker_id": "Ben",
+        "portrait_id": "Happy",
+        "text": "I could just force everyone to stay indoors.",
+        "questions":{
+            "Force?": 17,
+            "Fuck yeah.": 26
+        },
+        "bg_color":"dcb68c",
+        "text_speed": 0.03,
+        "_index": 16
+    },
+
+
+
+    {
+        "type": "dialogue",
+        "speaker_id": "Ben",
+        "portrait_id": "Normal",
+        "text": "What the fuck?",
+        "bg_color":"dcb68c",
+        "next": 18,
+        "text_speed": 0.03,
+        "_index": 17
+    },
+
+    {
+        "type": "question",
+        "speaker_id": "Ben",
+        "portrait_id": "Normal",
+        "text": "You're joking right?",
+        "questions": {
+            "No.": 19,
+            "Yes.": 22
+        },
+        "bg_color":"dcb68c",
+        "next": 21,
+        "text_speed": 0.03,
+        "_index": 18
+    },
+
+    {
+        "type": "dialogue",
+        "speaker_id": "Ben",
+        "portrait_id": "Sad",
+        "text": "Oh. Okay.",
+        "bg_color":"dcb68c",
+        "next": 20,
+        "text_speed": 0.03,
+        "_index": 19
+    },
+
+    {
+        "type": "dialogue",
+        "speaker_id": "Ben",
+        "portrait_id": "Sad",
+        "text": "My bad.",
+        "bg_color":"dcb68c",
+        "next": 21,
+        "text_speed": 0.03,
+        "_index": 20
+    },
+
+    {
+        "type": "dialogue",
+        "speaker_id": "Ben",
+        "portrait_id": "Sad",
+        "text": "[The conversation ends in silence]",
+        "bg_color":"dcb68c",
+        "next": 55,
+        "text_speed": 0.03,
+        "_index": 21
+    },
+
+    {
+        "type": "dialogue",
+        "speaker_id": "Ben",
+        "portrait_id": "Happy",
+        "text": "Thank God, haha.",
+        "bg_color":"dcb68c",
+        "next": 23,
+        "text_speed": 0.03,
+        "_index": 22
+    },
+
+    {
+        "type": "dialogue",
+        "speaker_id": "Ben",
+        "portrait_id": "Happy",
+        "text": "Jesus, you scared the shit out of me man.",
+        "bg_color":"dcb68c",
+        "next": 24,
+        "text_speed": 0.03,
+        "_index": 23
+    },
+
+    {
+        "type": "dialogue",
+        "speaker_id": "Ben",
+        "portrait_id": "Normal",
+        "text": "I can't believe people like that exist.",
+        "bg_color":"dcb68c",
+        "next": 25,
+        "text_speed": 0.03,
+        "_index": 24
+    },
+
+    {
+        "type": "dialogue",
+        "speaker_id": "Ben",
+        "portrait_id": "Normal",
+        "text": "It's crazy.",
+        "bg_color":"dcb68c",
+        "next": 26,
+        "text_speed": 0.03,
+        "_index": 25
+    },
+
+    {
+        "type": "dialogue",
+        "speaker_id": "Ben",
+        "portrait_id": "Normal",
+        "text": "God!",
+        "bg_color":"dcb68c",
+        "next": 27,
+        "text_speed": 0.03,
+        "_index": 26
+    },
+
+    {
+        "type": "dialogue",
+        "speaker_id": "Ben",
+        "portrait_id": "Normal",
+        "text": "This shit sucks man.",
+        "bg_color":"dcb68c",
+        "next": 28,
+        "text_speed": 0.03,
+        "_index": 27
+    },
+
+    {
+        "type": "dialogue",
+        "speaker_id": "Ben",
+        "portrait_id": "Sad",
+        "text": "I am tired.",
+        "bg_color":"dcb68c",
+        "next": 29,
+        "text_speed": 0.03,
+        "_index": 28
+    },
+
+    {
+        "type": "dialogue",
+        "speaker_id": "Ben",
+        "portrait_id": "Sad",
+        "text": "I don't know why I came.",
+        "bg_color":"dcb68c",
+        "next": 30,
+        "text_speed": 0.03,
+        "_index": 29
+    }
+
+]

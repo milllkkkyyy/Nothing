@@ -1,0 +1,23 @@
+[
+    {
+        "type": "dialogue",
+        "speaker_id": "",
+        "portrait_id": "",
+        "text": "[Book is nowhere to be found]",
+        "next": 1,
+        "bg_color": "ffffff",
+        "text_speed": 0.03,
+        "_index": 0
+    },
+    
+    {
+        "type": "dialogue",
+        "speaker_id": "",
+        "portrait_id": "",
+        "text": "[You did see on the news something about a professor going crazy and shooting his entire family including himself.]",
+        "next": 2,
+        "bg_color": "ffffff",
+        "text_speed": 0.03,
+        "_index": 1
+    }
+]

@@ -1,0 +1,41 @@
+[
+    {
+
+        "type": "dialogue",
+        "speaker_id": "Dave",
+        "portrait_id": "Sad",
+        "text": "Francis passed away during the pandemic.",
+        "bg_color":"e5a5f5",
+        "text_speed": 0.03,
+        "next": 1,
+        "_index": 0
+
+    },
+
+    {
+
+        "type": "dialogue",
+        "speaker_id": "Dave",
+        "portrait_id": "Normal",
+        "text": "It was of natural causes.",
+        "bg_color":"e5a5f5",
+        "text_speed": 0.03,
+        "next": 2,
+        "_index": 1
+
+    },
+
+    {
+
+        "type": "dialogue",
+        "speaker_id": "Dave",
+        "portrait_id": "Sad",
+        "text": "The reunion was her dying wish.",
+        "bg_color":"e5a5f5",
+        "text_speed": 0.03,
+        "next": 45,
+        "_index": 2
+
+    }
+
+]

@@ -19,7 +19,7 @@ var timer: Timer
 var inputDelay: Timer
 var nameLabel: RichTextLabel
 var textLabel: RichTextLabel
-var portrait: Sprite
+var portrait: TextureRect
 var Q1Button: Button
 var Q2Button: Button
 var indicator: Polygon2D 
@@ -31,7 +31,11 @@ var dialog
 var phraseNum = 0
 var finished = false
 var question = false
+
 signal isFinished 
+
+var command
+var unlocked_questions = false
 
 func _ready():
 	_initialize()
@@ -92,29 +96,34 @@ func nextPhrase() -> void:
 	
 	match dialog[phraseNum]["type"]:
 		"dialogue":
-			textLabel.rect_size = Vector2(778, 120)
-			setup("Dialog")
+			setup("dialog")
 		"question":
-			textLabel.rect_size = Vector2(778, 70)
-			setup("Question")
+			setup("question")
 			
 func setup(option):
-	nameLabel.bbcode_text = dialog[phraseNum]["speaker_id"]
-	textLabel.bbcode_text = dialog[phraseNum]["text"]
+	nameLabel.text = dialog[phraseNum]["speaker_id"]
+	textLabel.text = dialog[phraseNum]["text"]
 	timer.wait_time = dialog[phraseNum]["text_speed"]
 	colorRect.color = Color(dialog[phraseNum]["bg_color"])
 	
-	if option == "Question":
+	if dialog[phraseNum].has("command"):
+		process_command(dialog[phraseNum]["command"])
+	
+	if option == "question":
+		
 		var i = 0
-		for key in dialog[phraseNum]["questions"]:
+		for answer in dialog[phraseNum][question_type()]:
 			match i:
 				0:
-					Q1Button.text = key
+					Q1Button.text = answer
 				1:
-					Q2Button.text = key
+					Q2Button.text = answer
 			i+= 1
-
-	var img = "res://Images/" + dialog[phraseNum]["speaker_id"] + dialog[phraseNum]["portrait_id"] + ".png"
+	var img
+	if dialog[phraseNum]["speaker_id"] in ModLoader.mod_dialogs:
+		img = ModLoader.path + "/" + dialog[phraseNum]["speaker_id"] + dialog[phraseNum]["portrait_id"] + ".png"
+	else:
+		img = "res://Images/Characters/" + dialog[phraseNum]["speaker_id"] + "/" + dialog[phraseNum]["portrait_id"] + ".png"
 	portrait.texture = load(img)
 	
 	while textLabel.visible_characters < len(textLabel.text):
@@ -124,20 +133,29 @@ func setup(option):
 		yield(timer, "timeout")
 		
 	match option:
-		"Dialog":
+		"dialog":
 			finished = true
 			indicator.visible = true
 			indicatorAnim.play("Bounce")
-		"Question":
+		"question":
 			set_button_visibility(false)
 	
+func process_command(c):
+	if c == "unlocked_questions":
+		unlocked_questions = true
+
+func question_type():
+	if dialog[phraseNum].has("unlocked_questions") and unlocked_questions:
+		return "unlocked_questions"
+	return "questions"
+
 func _on_Q1Button_pressed():
-	phraseNum = int(dialog[phraseNum]["questions"][Q1Button.text])
+	phraseNum = int(dialog[phraseNum][question_type()][Q1Button.text])
 	set_button_visibility(true)
 	nextPhrase()
 	
 func _on_Q2Button_pressed():
-	phraseNum = int(dialog[phraseNum]["questions"][Q2Button.text])
+	phraseNum = int(dialog[phraseNum][question_type()][Q2Button.text])
 	set_button_visibility(true)
 	nextPhrase()
 

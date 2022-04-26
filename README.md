@@ -12,7 +12,7 @@ You will need two files for each character:\
 [NAME]PreDialog.json\
 [NAME]PostDialog.json 
 
-in the dialog jsons itself here are two types of speech. One is dialogue:
+in the dialog jsons itself there are two types of speech. One is dialogue:
 ```
 [
     {
@@ -37,7 +37,7 @@ in the dialog jsons itself here are two types of speech. One is dialogue:
     },
 ]
 ```
-Questions are very similar:
+The other is question:
 ```
 [
   {
@@ -99,7 +99,7 @@ To import, open a text editor. Notepad will do, and type:
 func add_id():
   return [ "NAME OF CHARACTER" + "OTHER NAME OF CHARACTER" + "ETC." ]
 ```
-Save as a .gd file and drag that file and your occompanying files into the mods folder. That should be all you need. If you have done everything correctly you should be able to play your character now / see your mod in the corner of the game. 
+Save as a .gd file and drag that file and your occompanying files into the mods folder. That should be all you need. If you have done everything correctly you should be able to play your character now / see your mod in the corner of the game in settings. 
 
 If you do not include the .gd file your character will not show up.
 

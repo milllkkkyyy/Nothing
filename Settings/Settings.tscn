@@ -1,4 +1,4 @@
-[gd_scene load_steps=24 format=2]
+[gd_scene load_steps=25 format=2]
 
 [ext_resource path="res://Menu/Images/Grabber_trim.png" type="Texture" id=1]
 [ext_resource path="res://Font/Nothing-Regular.ttf" type="DynamicFontData" id=2]
@@ -99,6 +99,19 @@ outline_color = Color( 0, 0, 0, 1 )
 use_filter = true
 font_data = ExtResource( 2 )
 
+[sub_resource type="StyleBoxFlat" id=15]
+bg_color = Color( 1, 1, 1, 1 )
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color( 0, 0, 0, 1 )
+border_blend = true
+corner_radius_top_left = 2
+corner_radius_top_right = 2
+corner_radius_bottom_right = 2
+corner_radius_bottom_left = 2
+
 [node name="Settings" type="Control"]
 pause_mode = 2
 anchor_right = 1.0
@@ -112,6 +125,7 @@ sfx_slider_path = NodePath("MarginContainer/CenterContainer/VBoxContainer/Center
 sprite_return_path = NodePath("MarginContainer/CenterContainer/VBoxContainer/CenterContainer2/AnimatedSprite")
 button_return_path = NodePath("MarginContainer/CenterContainer/VBoxContainer/CenterContainer2/Return")
 button_main_menu_path = NodePath("MainMenuButton")
+list = NodePath("ItemList")
 
 [node name="ColorRect" type="ColorRect" parent="."]
 anchor_right = 1.0
@@ -270,16 +284,15 @@ custom_colors/font_color_pressed = Color( 1, 1, 1, 1 )
 text = "RETURN"
 
 [node name="AnimatedSprite" type="AnimatedSprite" parent="MarginContainer/CenterContainer/VBoxContainer/CenterContainer2"]
-visible = false
-position = Vector2( 323.331, 12.8325 )
+position = Vector2( 322.984, 12.5067 )
 frames = SubResource( 9 )
 
 [node name="MainMenuButton" type="Button" parent="."]
 anchor_top = -0.00198201
 anchor_bottom = -0.00198201
-margin_left = 29.8664
+margin_left = 27.038
 margin_top = 535.61
-margin_right = 169.866
+margin_right = 167.038
 margin_bottom = 578.61
 custom_styles/hover = SubResource( 10 )
 custom_styles/pressed = SubResource( 11 )
@@ -290,6 +303,35 @@ custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_colors/font_color_hover = Color( 1, 1, 1, 1 )
 custom_colors/font_color_pressed = Color( 1, 1, 1, 1 )
 text = " Main Menu "
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="."]
+margin_left = 871.268
+margin_top = 393.049
+margin_right = 971.268
+margin_bottom = 423.049
+custom_fonts/font = ExtResource( 6 )
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+text = "Mod List"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ItemList" type="ItemList" parent="."]
+anchor_top = -0.00280304
+anchor_bottom = -0.00280304
+margin_left = 852.96
+margin_top = 431.007
+margin_right = 990.96
+margin_bottom = 578.007
+custom_styles/bg = SubResource( 15 )
+custom_colors/guide_color = Color( 0, 0, 0, 1 )
+custom_colors/font_color_selected = Color( 0, 0, 0, 1 )
+custom_colors/font_color = Color( 0, 0, 0, 1 )
 __meta__ = {
 "_edit_use_anchors_": false
 }

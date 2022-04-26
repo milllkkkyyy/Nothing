@@ -1,10 +1,11 @@
 extends Control
 
-export(NodePath) var music_slider_path
+export(NodePath) var music_slider_path 
 export(NodePath) var sfx_slider_path
 export(NodePath) var sprite_return_path
 export(NodePath) var button_return_path
 export(NodePath) var button_main_menu_path
+export(NodePath) onready var list = get_node(list)
 
 var music_slider : HSlider
 var sfx_slider : HSlider
@@ -18,7 +19,9 @@ func _ready():
 	_initialize()
 	music_slider.value = Globals.music_volume
 	sfx_slider.value = Globals.sfx_volume
-
+	for mod in ModLoader.mods:
+		list.add_item(mod)
+	
 func _initialize():
 	music_slider = get_node(music_slider_path)
 	sfx_slider = get_node(sfx_slider_path)
